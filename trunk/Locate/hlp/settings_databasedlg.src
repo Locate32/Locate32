@@ -1,0 +1,117 @@
+TITLE=Database dialog / Database Settings
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_databasedlg"></A>Database dialog / Database Settings</H1>
+
+<p>You can use this tab to specify the settings of databases. This dialog contains the following options.</p>
+
+<div id="settings_databases_fields">
+<p>
+<b><A NAME="sdd_enable"></A>$DLGDATABASEDIALOG_ENABLE@MC$</b>:
+Use this option to enable and disable the database. If a database is enabled,
+it will be used in normal searches (when you press Find Now button or Enter). 
+This enabled/disabled state do not have effect on the "Update databases" command. 
+</p>
+<p>
+<b><A NAME="sdd_updglob"></A>$DLGDATABASEDIALOG_GLOBALUPDATE@MC$</b>:
+Use this button to change the update globally state for the database. 
+If this state is enabled, the database will be updated when
+"Update databases" command is chosen.  
+</p>
+<p>
+<b><A NAME="sdd_thread"></A>$DLGDATABASEDIALOG_THREAD@MC$</b>:
+You can use this combo box to specify which thread is used for update process. The number of 
+available threads depends on the <A HREF="settings_databases.htm#sd_threads">Threads used for updating</A> 
+option in the Database settings. 
+</p>
+<p>
+<b><A NAME="sdd_name"></A>$DLGDATABASEDIALOG_NAME@MC$</b>:
+Use this field to give a name for the database. Every database should have an unique name.
+</p>
+<p>
+<b><A NAME="sdd_file"></A>$DLGDATABASEDIALOG_DBFILE@MC$</b>:
+Use this field to specify a file to which the content of the database is stored. 
+The file name should be valid and user should have sufficient access (read and write the file) 
+to the given location. You can open a standard file open dialog to specify database file name 
+and location using<b>Browse</b> button.
+<br>
+A file name can contain "%locatedir%" which is the same as the Locate32's directory. For example,
+"%locatedir%\files.dbs" means "C:\Program Files\Locate\files.dbs" if Locate32 is installed to 
+"C:\Program Files\Locate" directory.
+</p>
+<p>
+<b><A NAME="sdd_unicode"></A>$DLGDATABASEDIALOG_UNICODE@MC$</b>:
+If this option is enabled, filenames are stored using Unicode character set. 
+This option should be enabled if you have files using Cyrillic or Chinese 
+alphabets or other special characters. It is also recommended to enable this 
+option also in other cases. 
+</p>
+<p>
+<b><A NAME="sdd_noowerwrite"></A>$DLGDATABASEDIALOG_DONOTOVERWRITEEXISTING@MCP$</b>:
+If this option is enabled and the database is updated, the database file is not overwritten and the 
+content of scanned drives is added to the tail of database. 
+For example, this option can be used to cataloging CD-ROM and DVD discs (to create a 
+database containing all files in several discs, setup a database containing CD/
+DVD rom drive and enable this option, insert a disc to drive and update database, insert another disc 
+and update database again). 
+</p>
+<p>
+<b><A NAME="sdd_creator"></A>$DLGDATABASEDIALOG_CREATOR@MC$</b>:
+Use this field to specify the name of the creator of the database. This information is shown
+in Database Info dialog (File menu). 
+</p>
+<p>
+<b><A NAME="sdd_description"></A>$DLGDATABASEDIALOG_DESCRIPTION@MC$</b>:
+Use this field to specify the description for the database. This information is shown
+in Database Info dialog (File menu). 
+</p>
+<p>
+<b><A NAME="sdd_local"></A>$DLGDATABASEDIALOG_CHECKLOCALDRIVES@MC$</b>:
+If this option is enabled, the database contains files that are the local drives 
+(external hard discs are often treated as a local drive). 
+</p>
+<p>
+<b><A NAME="sdd_custom"></A>$DLGDATABASEDIALOG_CUSTOM@MC$</b>:
+Enable this option to choose drives and directories that will be included to the database. 
+Use the <b>$DLGDATABASEDIALOG_DRIVESANDFOLDERS@MC$</b> list below and 
+<b>$DLGDATABASEDIALOG_ADDFOLDER@MC$</b> button to specify these drives and directories. 
+</p>
+<p>
+<b><A NAME="sdd_scanjunctions"></A>$DLGDATABASEDIALOG_SCANSYMLINKSANDJUNCTIONS@MC$</b>:
+If this option is enabled, junctions or symbolic links refering to directories are
+also scanned and files and directories are included to databases.
+</p>
+<p>
+<b><A NAME="sdd_stopifunavailable"></A>$DLGDATABASEDIALOG_STOPIFROOTUNAVAILABLE@MC$</b>:
+If this option is enabled, updating the database will be stopped if some of drives or directories is unavailable. 
+This option can be used with network shares or external drives. Note that, since the database is written 
+only just at the end of updating process, this stopping means that the database file is not updated at all. 
+More information <A HREF="howto_externaldrives.htm">here</a>. <b>Note:</b> if 
+<a href="settings_advanced.htm#sa_noncriticalerrors">$STRADVANCEDSETTINGS_SHOWNONCRITICALERRORS@Cp$</a> option 
+in Advanced settings is enabled, in the case of an unavailable drive or directory you will get an error message
+which also aks whether you want to continue updating the database or skip it. In that case this option is used only as 
+a default choise (which is chosen if you just press enter when the error message appears).
+</p>
+<p>
+<b><A NAME="sdd_advanced"></A>$DLGDATABASEDIALOG_ADVANCED@MC$</b>:
+This button will open a <a href="settings_databaseadv.htm">dialog of settings</a> that can be used 
+to include/exclude files and directories and specify directory maps. 
+</p>
+<p>
+<b><A NAME="sdd_drives"></A>$DLGDATABASEDIALOG_DRIVESANDFOLDERS@MC$</b>:
+This list contains the drives, directories and network shares which are included to the database when 
+Custom option is checked. You can add new drive or directory to the list using 
+<A NAME="sdd_adddir"></A><b>$DLGDATABASEDIALOG_ADDFOLDER@MC$</b> button 
+and remove the selected directory directory using 
+<A NAME="sdd_removedir"></A><b>$DLGDATABASEDIALOG_REMOVE@MC$</b> button. 
+The order of the directories can be changed using 
+<A NAME="sdd_updown"></A><b>$DLGDATABASEDIALOG_UP@MC$</b> and 
+<b>$DLGDATABASEDIALOG_DOWN@MC$</b> buttons.
+</p>
+
+
+
+</div>
+
+
+</div>

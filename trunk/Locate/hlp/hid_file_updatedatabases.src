@@ -1,0 +1,12 @@
+TITLE=Update Databases (File menu/System tray menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_updatedatabases"></A>Update Databases (File menu/System tray menu)</H1>
+
+<P>Use this command to update databases. Databases for which "Update Globally" is chosen 
+(Database tab in Settings dialog) are updated. </P>
+
+<P></P>This command is not available while databases are updated.
+</P>
+
+</div>

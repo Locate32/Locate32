@@ -1,0 +1,47 @@
+body { 
+  font-size: 11pt; 
+}
+
+table { 
+  border-style: none; 
+  margin-left: -10pt;
+} 
+
+td { 
+  spacing: 10pt 2pt; 
+  padding: 1pt 10pt;
+}
+
+#header 
+{ 
+  #visibility: hidden;
+  margin-bottom: 40px;
+}
+
+#databasetable_header 
+{ 
+  font-size: 12pt; 
+  font-weight: bold;
+}
+
+
+#resultstable { 
+  width: 100%;
+  text-align: center;
+}
+
+#results_insidetable { 
+  margin: 0px;
+}
+
+#retults_imagetd { 
+  padding: 0;
+}
+
+#retults_extrainfotd { 
+  font-size: 7px;
+  margin: 0px;
+  padding: 0;
+  border: 0;
+}
+

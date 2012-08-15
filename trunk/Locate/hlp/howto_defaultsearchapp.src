@@ -1,0 +1,28 @@
+TITLE=How to use Locate32 as a default desktop search application in Windows Vista
+CONTENT=
+<H1><A NAME="howto_defaultsearchapp"></A>How to use Locate32 as a default desktop search application in Windows Vista</H1>
+
+<p>If you have Windows <b>Vista</b> with <b>Service Pack 1</b>, you can specify Locate32 as a default desktop search 
+application using "Default programs" (Control Panel). Before you can use Locate32 as the default desktop 
+search application, you need to register "search:" protocol for Locate32. This can be done
+using "Search protocol - Register.reg" file in regs directory (under the Locate32 installation directory).</p>
+
+<p>
+To make Locate32 as the default desktop search application, do the following:
+<ul>
+<li>Open "Search protocol - Register.reg" file to a text editor (e.g. Notepad) and check
+   that Locate32 isntallation directory is correct (default is C:\Program Files\Locate).</li>
+<li>Merge "Search protocol - Register.reg" file by double clicking it. An another way is to
+	open registry editor (regedit.exe) and choose File / Import. </li>
+<li>Open "Default Programs" in Control Panel and choose "Associate a file type or protocol with a program".
+   Find a protocol "SEARCH" and choose "Change Program" (you can also double click the 
+   protocol). Choose "Locate32".</li>
+</ul>
+</p.
+
+<p><b>Note</b>: specifying Locate32 as a default search application does <b>not</b> replace
+Search feature in Windows Explorer completely. The default search application is only used 
+when you type search term to "Start search" field in Start menu and press <b>ENTER</b>, or when
+Win+F, F3 or Ctrl-F keys are used to open search (i.e. you don't need to 
+assign Win+F, F3 and Ctrl+F keys in Locate32 and keep Locate32 running)</p>
+

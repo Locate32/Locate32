@@ -1,0 +1,204 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "commonres.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "hfcrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "commonres.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""hfcrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,10,8220
+ PRODUCTVERSION 3,1,10,8220
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x3L
+#else
+ FILEFLAGS 0x2L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Locate32"
+            VALUE "FileVersion", "3, 1, 10, 8220"
+            VALUE "InternalName", "Locate32"
+            VALUE "LegalCopyright", "Copyright © 1997-2010 Janne Huttunen"
+            VALUE "OriginalFilename", "Locate32.exe"
+            VALUE "ProductName", "Locate32"
+            VALUE "ProductVersion", "3.1 RC3m build 10.8220a"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APPLICATIONICON     ICON                    "commonres\\locate32.ico"
+IDI_FILES               ICON                    "commonres\\files.ico"
+IDI_DELETEDFILE         ICON                    "commonres\\deletedf.ico"
+IDI_FILE                ICON                    "commonres\\file.ico"
+IDI_UANIM1              ICON                    "commonres\\uanim1.ico"
+IDI_UANIM2              ICON                    "commonres\\uanim2.ico"
+IDI_UANIM3              ICON                    "commonres\\uanim3.ico"
+IDI_UANIM4              ICON                    "commonres\\uanim4.ico"
+IDI_UANIM5              ICON                    "commonres\\uanim5.ico"
+IDI_UANIM6              ICON                    "commonres\\uanim6.ico"
+IDI_UANIM7              ICON                    "commonres\\uanim7.ico"
+IDI_UANIM8              ICON                    "commonres\\uanim8.ico"
+IDI_UANIM9              ICON                    "commonres\\uanim9.ico"
+IDI_UANIM10             ICON                    "commonres\\uanim10.ico"
+IDI_UANIM11             ICON                    "commonres\\uanim11.ico"
+IDI_UANIM12             ICON                    "commonres\\uanim12.ico"
+IDI_UANIM13             ICON                    "commonres\\uanim13.ico"
+IDI_YES                 ICON                    "commonres\\yes.ico"
+IDI_NO                  ICON                    "commonres\\no.ico"
+IDI_LANIM1              ICON                    "commonres\\lanim1.ico"
+IDI_LANIM2              ICON                    "commonres\\lanim2.ico"
+IDI_LANIM3              ICON                    "commonres\\lanim3.ico"
+IDI_LANIM4              ICON                    "commonres\\lanim4.ico"
+IDI_LANIM6              ICON                    "commonres\\lanim6.ico"
+IDI_LANIM5              ICON                    "commonres\\lanim5.ico"
+IDI_LENS                ICON                    "commonres\\lens.ico"
+IDI_DBFILE              ICON                    "commonres\\dbfile.ico"
+IDI_INVALIDDBFILE       ICON                    "commonres\\invalidf.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CIRCLE              BITMAP                  "commonres\\circle.bmp"
+IDB_ABOUTBANNER         BITMAP                  "commonres\\aboutbanner.bmp"
+IDB_DEFAULTTYPEICONS    BITMAP                  "commonres\\deftypei.bmp"
+IDB_SAVERESTOOLBARBITMAPS BITMAP                  "commonres\\sresbitn.bmp"
+IDB_SAVERESTOOLBARBITMAPSH BITMAP                  "commonres\\sresbith.bmp"
+IDB_SAVERESTOOLBARBITMAPSD BITMAP                  "commonres\\sresbitd.bmp"
+IDB_TOOLBARBITMAPS      BITMAP                  "commonres\\toolbitn.bmp"
+IDB_TOOLBARBITMAPSH     BITMAP                  "commonres\\toolbith.bmp"
+IDB_TOOLBARBITMAPSD     BITMAP                  "commonres\\toolbitd.bmp"
+IDB_OPTIONSPROPERTYPAGEBITMAPS BITMAP                  "commonres\\advancedsettingsbitmap.bmp"
+IDB_SHORTCUTACTIONSBITMAPSD BITMAP                  "commonres\\keybitd.bmp"
+IDB_SHORTCUTACTIONSBITMAPS BITMAP                  "commonres\\keybitn.bmp"
+IDB_SHORTCUTACTIONSBITMAPSH BITMAP                  "commonres\\keybith.bmp"
+IDB_DONATE              BITMAP                  "commonres\\x-click-but04.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "commonres\\manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR               "Error"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERRORCANNOTLOADLANGUAGEFILE "Cannot load language file."
+    IDS_ERRORCANNOTLOADLANGUAGEFILE2 
+                            "Cannot load language file, using default."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DATA
+//
+
+IDR_DEFAULTSHORTCUTS    DATA                    "commonres\\defaultshortcuts.dat"
+IDR_HTMLPAGESTYLES      DATA                    "commonres\\htmlpage_styles.css"
+IDI_DELETEDFILE         DATA                    "commonres\\deletedf.ico"
+IDI_FILE                DATA                    "commonres\\file.ico"
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

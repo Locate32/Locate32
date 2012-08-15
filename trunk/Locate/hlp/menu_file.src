@@ -1,0 +1,127 @@
+TITLE=File menu commands
+CONTENT=
+
+<!--<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="files: managing">
+</OBJECT>-->
+
+<div id="menus">
+<H1><A NAME="menu_file"></A>File menu commands</H1>
+
+<P>The content of the <b>File</b> menu varies depending on selected files. 
+However, it usually contains at least the following commands:
+
+<TABLE id="menutable" cols=2>
+<TBODY>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_opencontainingfolder.htm">Open Containing Folder</A></TD>
+<TD width=80%>Opens folder in which the selected files are located.</TD>
+</TR>
+
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_removefromlist.htm">Remove from this list</A></TD>
+<TD width=80%>Remove selected items from the result list.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="menu_special.htm">Special</A></TD>
+<TD width=80%>Menu containing special commands.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_open.htm">Open</A></TD>
+<TD width=80%>Execute selected items in the result list.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_sendto.htm">Send to</A></TD>
+<TD width=80%>Use this to copy ("send") files to specific locations.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_cut.htm">Cut</A></TD>
+<TD width=80%>Copy selected results to clipboard. 
+Files are removed if a file operation is executed.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_copy.htm">Copy</A></TD>
+<TD width=80%>Copy selected results to clipboard.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_createshortcut.htm">Create Shortcut</A></TD>
+<TD width=80%>Create a shortcut on desktop.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_delete.htm">Delete</A></TD>
+<TD width=80%>Delete selected files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_rename.htm">Rename</A></TD>
+<TD width=80%>Rename selected files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_properties.htm">Properties</A></TD>
+<TD width=80%>Show properties of the selected files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_saveresults.htm">Save Results</A></TD>
+<TD width=80%>Save results to a file.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_findusingdatabases.htm">Find Using Databases...</A></TD>
+<TD width=80%>Search files using selected databases.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_updatedatabases.htm">Update Databases</A></TD>
+<TD width=80%>Update databases.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_updatedatabases.htm">Update Selected...</A></TD>
+<TD width=80%>Update selected databases.</TD>
+
+</TR>
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_updatedatabases.htm">Update Database</A></TD>
+<TD width=80%>Update a single database.</TD>
+</TR>
+
+</TR>
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_stopupdating.htm">Stop Updating</A></TD>
+<TD width=80%>Stop update process.</TD>
+</TR>
+
+</TR>
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_databaseinfo.htm">Database Info</A></TD>
+<TD width=80%>Shows information about databases.</TD>
+</TR>
+
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_close.htm">Close</A></TD>
+<TD width=80%>Close dialog.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_exit.htm">Exit</A></TD>
+<TD width=80%>Close dialog and exit Locate.</TD>
+</TR>
+
+</TBODY>
+</TABLE>
+</P>
+</div>
+
+

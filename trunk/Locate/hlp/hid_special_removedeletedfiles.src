@@ -1,0 +1,8 @@
+TITLE=Remove deleted files (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_removedeletedfiles"></A>Remove deleted files (Special menu)</H1>
+
+<P>Use this command to remove not existing files from the result list.</P>
+
+</div>

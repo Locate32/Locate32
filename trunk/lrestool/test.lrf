@@ -1,0 +1,592 @@
+# English language file 
+#	
+# Copyright (C) 2003-2004 Janne Huttunen <Janne.Huttunen@uku.fi>
+#
+
+PROVIDES_LANGUAGE=English
+FOR_PROGRAM=LOCATE32
+
+###################################################
+# VERSION_INFO Block
+###################################################
+
+# FILEVERSION_NUMERIC must in in format A, B, C, D where A, B, C and D are integers between 0-65535
+ORIGINALFILENAME=lan_en.dll
+LEGALCOPYRIGHT=Copyright © 1997-2004 Janne Huttunen
+INTERNALNAME=lan_en
+FILEVERSION=3.0 alpha 4.1180
+FILEDESCRIPTION=English language file for Locate32
+
+
+# DLD* are identifiers for texts in controls.
+# STR* are identifiers for texts in string table.
+# MENU* are identifiers for texts in menu.
+# ACC* are identifiers for accelerators. For example, if text for corresponding 
+#    DLG identified is "F&ind" accelerator should be "I"
+#    Accelerator are only defined for main dialog and tabs in it
+
+# If original string contains %s, %d etc, those should be contained also in 
+# translation. Those strings are passed to sprintf function and program may hang  
+# are strings are not valid (i.e. too many "%s"). 
+#
+# In those strings %s means integer value, %s is string etc (for more information, 
+# see the refenrece of sprintf function (e.g. from MSDN library).
+ 
+
+###################################################
+# DIALOGS
+###################################################
+
+###########################
+# Main dialog 
+
+# New ID:
+DLGMAIN_CAPTION=Locate: All Files
+STRMAIN_CAPTION2=Locate: 
+# New ID:
+STRMAIN_CAPTIONALLFILES=All Files
+# New ID:
+STRMAIN_CAPTIONFILESNAMED=Files named 
+DLGMAIN_FINDNOW=F&ind Now2222
+ACCMAIN_FINDNOW="I"
+DLGMAIN_STOP=Sto&p
+ACCMAIN_STOP="P"
+DLGMAIN_NEWSEARCH=Ne&w Search
+ACCMAIN_NEWSEARCH="W"
+STRMAIN_FILELISTCOLUMN_NAME=Name
+STRMAIN_FILELISTCOLUMN_INFOLDER=In Folder
+STRMAIN_FILELISTCOLUMN_FULLPATH=Full Path
+STRMAIN_FILELISTCOLUMN_SHORTFILENAME=Short file name
+STRMAIN_FILELISTCOLUMN_SHORTFILEPATH=Short file path
+STRMAIN_FILELISTCOLUMN_SIZE=Size
+STRMAIN_FILELISTCOLUMN_TYPE=Type
+STRMAIN_FILELISTCOLUMN_MODIFIED=Date Modified
+STRMAIN_FILELISTCOLUMN_CREATED=Date Created
+STRMAIN_FILELISTCOLUMN_ACCESSED=Date Accessed
+STRMAIN_FILELISTCOLUMN_ATTRIBUTES=Attributes
+STRMAIN_FILELISTCOLUMN_IMAGEDIMENSIONS=Dimensions
+STRMAIN_FILELISTCOLUMN_OWNER=Owner
+STRMAIN_FILELISTCOLUMN_DATABASE=Database
+STRMAIN_FILELISTCOLUMN_DATABASEDESCRIPTION=Database Description
+STRMAIN_FILELISTCOLUMN_DATABASEFILE=Database File
+
+
+# Name dialog (A tab in the main dialog)
+STRNAME_TABCAPTION=Name && Location
+DLGNAME_NAMED=&Named:
+ACCNAME_NAMED="N"
+DLGNAME_EXTENSIONS=Ex&tensions:
+ACCNAME_EXTENSIONS="T"
+DLGNAME_LOOKIN=&Look in:
+ACCNAME_LOOKIN="L"
+DLGNAME_BROWSE=&Browse...
+ACCNAME_BROWSE="B"
+STRNAME_DOCUMENTFOLDERS=Document Folders
+STRNAME_GETFOLDER=Get Folder:
+
+# Size & Date dialog (A tab in the main dialog)
+STRSIZEDATE_TABCAPTION=Size and Date
+DLGSIZEDATE_MINIMUMFILESIZE=Minimum filesize:
+DLGSIZEDATE_MAXIMUMFILESIZE=Maximum filesize:
+DLGSIZEDATE_FILEDATEATLEAST=Filedate at least:
+DLGSIZEDATE_FILEDATEATMOST=Filedate at most:
+DLGSIZEDATE_INFOTEXT=Size and date will be looked from database. If database does not contain size and dateinformation, these options will be ignored.
+STRSIZEDATA_DATETYPE_MODIFIED=Modified
+STRSIZEDATA_DATETYPE_CREATED=Created
+STRSIZEDATA_DATETYPE_LASTACCESSED=Last accessed
+
+# Advanced dialog (A tab in the main dialog)
+STRADVANCED_TABCAPTION=Advanced
+DLGADVANCED_CHECK=Check:
+DLGADVANCED_MATCHWHOLENAME=Match whole name only
+DLGADVANCED_TYPEOFFILE=Type of file:
+DLGADVANCED_CONTAININGTEXT=File containing text:
+DLGADVANCED_MATCHCASE=Match case
+DLGADVANCED_REPLACESPACES=Replace spaces with asterisk
+STRADVANCED_TYPES_BYEXTENSION=(by extension)
+STRADVANCED_CHECK_FILENAMES=File names only
+STRADVANCED_CHECK_FILEANDFOLDERNAMES=File and folder names
+STRADVANCED_CHECK_FOLDERNAMES=Folder names only
+
+###########################
+# About dialog
+DLGABOUT_CAPTION=About:
+DLGABOUT_OK=OK
+DLGABOUT_COPYRIGHT=Copyright
+DLGABOUT_NEWVERSIONSON=New versions on
+DLGABOUT_FREEWAREINFO=This program is freeware.
+DLGABOUT_BUGFEEDBACKINFO=If you have found a bug or have comments
+STRABOUT_VERSION=Version 
+STRABOUT_SYSTEMINFO_WIN32S=Running on Windows %d.%d with Win32s Build:%d
+STRABOUT_SYSTEMINFO_WIN95=Running on Windows'95 version %d.%d.%d
+STRABOUT_SYSTEMINFO_WIN98=Running on Windows'98 version %d.%d.%d
+STRABOUT_SYSTEMINFO_WINNT=Running on Windows NT %d.%d Build: %d
+STRABOUT_SYSTEMINFO_WINME=Running on Windows Millenium %d.%d.%d
+STRABOUT_SYSTEMINFO_WIN2KWRKS=Running on Windows 2000 Workstation %d.%d Build %d
+STRABOUT_SYSTEMINFO_WIN2KSERV=Running on Windows 2000 Server %d.%d Build %d
+STRABOUT_SYSTEMINFO_WIN2KADVS=Running on Windows 2000 Advanced Server  %d.%d Build %d
+STRABOUT_SYSTEMINFO_WINXP=Running on Windows XP %d.%d Build %d
+STRABOUT_SYSTEMINFO_PAGEDMEM=\nPaged memory: %d KB Free: %d KB
+STRABOUT_SYSTEMINFO_PHYSMEM=\nPhysical memory: %d KB Free: %d KB
+
+###########################
+# Settings dialogs
+STRSETTINGS_CAPTION=Settings:
+
+# General page
+STRGENERALSETTINGS_TABCAPTION=General
+DLGGENERALSETTINGS_MOUSESELECTION=Mouse Selection:
+DLGGENERALSETTINGS_USESYSTEMFOLDERSETTINGS=&Use current system folder settings
+DLGGENERALSETTINGS_SINGLECLICKTOOPEN=&Single click to open a file (point to select)
+DLGGENERALSETTINGS_DOUBLECLICKTOOPEN=Doub&le click to open a file (single click to select)
+DLGGENERALSETTINGS_NEVERUNDERLINEFILES=&Never underline file names
+DLGGENERALSETTINGS_UNDERLINEWHENPOINT=Underline file names when I &point at them
+DLGGENERALSETTINGS_ALWAYSUNDERLINE=Al&ways underline file names
+DLGGENERALSETTINGS_DATEANDTIMEFORMAT=Date and time format:
+DLGGENERALSETTINGS_SHOWDATESINFORMAT=Show d&ates in format:
+DLGGENERALSETTINGS_SHOWTIMESINFORMAT=Show &times in format:
+DLGGENERALSETTINGS_CONTEXTMENUCOMMANDS=Shell context menu commands:
+DLGGENERALSETTINGS_LOCATETEXT=Locate:
+DLGGENERALSETTINGS_LOCATEMYCOMPUTER=&My Computer
+DLGGENERALSETTINGS_LOCATEMYDOCUMENTS=My D&ocuments
+DLGGENERALSETTINGS_LOCATEDRIVES=&Drives
+DLGGENERALSETTINGS_LOCATEFOLDERS=&Folders
+DLGGENERALSETTINGS_UPDATETEXT=Update Database:
+DLGGENERALSETTINGS_UPDATEMYCOMPUTER=My &Computer
+DLGGENERALSETTINGS_ADVANCED=Advanced:
+DLGGENERALSETTINGS_OVERRIDEKEYS=Override system Win+F and Ctrl+F and F&3 in explorer
+DLGGENERALSETTINGS_LOADTYPEFROMREGISTRY=Load file types from registry (Type of file combo)
+
+# Language page
+STRLANGUAGESETTINGS_TABCAPTION=Language
+DLGLANGUAGESETTINGS_LANGUAGE=Language:
+DLGLANGUAGESETTINGS_USESAMELANGUAGEFORCONSOLEPROGRAMS=Use same language with locate.exe and updtdb32.exe
+DLGLANGUAGESETTINGS_SELECTLANGUAGE=Select language:
+DLGLANGUAGESETTINGS_NEEDRESTARTINFO=Application needs to be restarted to take this effect
+STRLANGUAGESETTINGS_LANGUAGELIST_LANGUAGE=Language
+STRLANGUAGESETTINGS_LANGUAGELIST_FILE=File
+STRLANGUAGESETTINGS_LANGUAGELIST_DESCRIPTION=Description
+
+# Locate page
+STRLOCATESETTINGS_TABCAPTION=Locate
+DLGLOCATESETTINGS_LOCATE=Locate:
+DLGLOCATESETTINGS_MAXFOUNDFILES=&Maximum number of found files:
+DLGLOCATESETTINGS_MAXFOUNDFILESINFO=(0 = no limit)
+DLGLOCATESETTINGS_DEFAULTS=Defaults:
+DLGLOCATESETTINGS_MATCHWHOLEFILENAME=Match whole file name
+DLGLOCATESETTINGS_CHECKIN=Check in:
+DLGLOCATESETTINGS_REPLACESPACES=Replace spaces
+DLGLOCATESETTINGS_TEXTISCASESENSITIVE=Text is case sensitive
+DLGLOCATESETTINGS_FILEVIEW=File view:
+DLGLOCATESETTINGS_USEGETFILETITLE=Use GetFile&Title function to formulate a file titles
+DLGLOCATESETTINGS_USEOWNTITLE=Use &own method to generate file titles
+DLGLOCATESETTINGS_FIRSTCHARUPPER=&First character is uppercase only
+DLGLOCATESETTINGS_ALWAYSSHOWEXTENSION=&Always show file extensions
+DLGLOCATESETTINGS_HIDEEXTENSIONSFORKNOWNTYPES=&Hide file extensions for known types
+DLGLOCATESETTINGS_NEVERSHOWEXTENSIONS=&Never show extensions
+DLGLOCATESETTINGS_SHOWTYPESPECIFIEDICONS=Show type specified &icons
+DLGLOCATESETTINGS_GETFILETYPES=Show file t&ypes (otherwise show extension)
+DLGLOCATESETTINGS_USESHELLFUNCTIONFORTYPES=Use &shell function to get file types
+DLGLOCATESETTINGS_USEOWNMETHODFORTYPES=Use o&wn method to get file types
+DLGLOCATESETTINGS_TITLEICONINFOTEXT=Using GetFileTitle, shell functions or icons may cause problems when number of found files is huge (over ~3000 files).
+
+# Database page
+STRDATABASESETTINGS_TABCAPTION=Databases
+DLGDATABASESETTINGS_DATABASES=Databases
+DLGDATABASESETTINGS_USEDDATABASES=Databases currently in use:
+DLGDATABASESETTINGS_NEW=&New
+DLGDATABASESETTINGS_EDIT=&Edit
+DLGDATABASESETTINGS_REMOVE=&Remove
+DLGDATABASESETTINGS_ENABLE=E&nable
+DLGDATABASESETTINGS_DISABLE=D&isable
+DLGDATABASESETTINGS_GLOBALUPDATE=&Global U.
+DLGDATABASESETTINGS_UP=&Up
+DLGDATABASESETTINGS_DOWN=&Down
+DLGDATABASESETTINGS_OVERRIDEDTXT=Database settings are currently overridden via command line arguments.
+DLGDATABASESETTINGS_RESTORE=Re&store
+DLGDATABASESETTINGS_THREADUSEDFORUPDATING=Threads used for updating (only one is recommended):
+STRDATABASESETTINGS_DATABASENAME=Name
+STRDATABASESETTINGS_DATABASEFILE=Database File
+STRDATABASESETTINGS_UPDATEGLOBALLY=Update globally
+STRDATABASESETTINGS_THREADID=Thread
+STRDATABASESETTINGS_THREADNAME=Thread %d
+
+# Autoupdate page
+SRTAUTOUPDATESETTINGS_TABCAPTION=Auto update
+DLGAUTOUPDATESETTINGS_SCHEDULEDUPDATES=Scheduled Updates:
+DLGAUTOUPDATESETTINGS_ADD=&Add
+DLGAUTOUPDATESETTINGS_EDIT=&Edit
+DLGAUTOUPDATESETTINGS_DELETE=&Delete
+DLGAUTOUPDATESETTINGS_SCHEDULE=Schedule:
+STRAUTOUPDATESETTINGS_ATEVERYDAY=At %s every day.
+STRAUTOUPDATESETTINGS_ATEVERYXTHDAYS=At %s every %d days.
+STRAUTOUPDATESETTINGS_ATEVERYOFWEEK=At %s every %sof every week.
+STRAUTOUPDATESETTINGS_ATEVERYOFXTHWEEK=At %s every %sof every %d weeks.
+STRAUTOUPDATESETTINGS_ATDAYOFMONTH=At %s on day %d of every month.
+STRAUTOUPDATESETTINGS_ATXTGDAYOFMONTH=At %s on the %s %s of every month.
+STRAUTOUPDATESETTINGS_ATONCE=At %s on %s.
+STRAUTOUPDATESETTINGS_ATSTARTUP=Run at startup.
+STRAUTOUPDATESETTINGS_LASTRUN=Last run: %s %s
+STRAUTOUPDATESETTINGS_LASTRUNNEVER=Last run: Never
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_CAPTION=Scheduled update
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_OK=OK
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_CANCEL=Cancel
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_SCHEDULEUPDATE=&Schedule Update:
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_STARTTIME=S&tart Time:
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_EVERY=&Every
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_MON=Mon
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_MONDAY=Monday
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_TUE=Tue
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_TUESDAY=Tuesday
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_WED=Wed
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_WEDNESDAY=Wednesday
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_THU=Thu
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_THURSDAY=Thursday
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_FRI=Fri
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_FRIDAY=Friday
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_SAT=Sat
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_SATURDAY=Saturday
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_SUN=Sun
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_SUNDAY=Sunday
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_THE=Th&e
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_OFMONTHS=of the month(s)
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_ENABLED=&Enabled
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_UPDATEONLYATTHISTIME=&Update only at this time
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_DELETEAFTERRUN=&Delete After Run
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_WEEKSON=week(s) on:
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_DAY=Da&y
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_OFTHEMONTHS=of the month(s)
+DLGAUTOUPDATESETTINGSSCHEDULEDUPDATE_RUNON=&Run on:
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_TYPEDAILY=Daily
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_TYPEWEEKLY=Weekly
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_TYPEMONTHLY=Monthly
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_TYPEONCE=Once
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_TYPEATSTARTUP=At Startup
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_WEEKFIRST=First
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_WEEKSECOND=Second
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_WEEKTHIRD=Third
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_WEEKFOURTH=Fourth
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_WEEKLAST=Last
+STRAUTOUPDATESETTINGSSCHEDULEDUPDATE_FRAMETEXT=Schedule Update %s:
+
+###########################
+# Database dialog
+DLGDATABASEDIALOG_OK=OK
+DLGDATABASEDIALOG_CANCEL=Cancel
+DLGDATABASEDIALOG_CAPTION=Database
+DLGDATABASEDIALOG_ENABLE=&Enable
+DLGDATABASEDIALOG_GLOBALUPDATE=Update &Globally
+DLGDATABASEDIALOG_THREAD=T&hread:
+DLGDATABASEDIALOG_STOPIFROOTUNAVAILABLE=&Stop if root unavailable
+DLGDATABASEDIALOG_NAME=&Name:
+DLGDATABASEDIALOG_DBFILE=&File:
+DLGDATABASEDIALOG_BROWSE=&Browse
+DLGDATABASEDIALOG_CREATOR=Crea&tor:
+DLGDATABASEDIALOG_DESCRIPTION=D&escription:
+DLGDATABASEDIALOG_CHECKLOCALDRIVES=Check &local drives
+DLGDATABASEDIALOG_CUSTOM=&Custom
+DLGDATABASEDIALOG_DRIVESANDFOLDERS=Drives and Folders:
+DLGDATABASEDIALOG_ADDFOLDER=&Add Folder
+DLGDATABASEDIALOG_REMOVE=&Remove
+DLGLANGUAGEDIALOG_DATABASESETTINGS=Database settings:
+DLGLANGUAGEDIALOG_INFORMATION=Information:
+DLGLANGUAGEDIALOG_INCLUDE=Include:
+STRDATABASEDIALOG_FLOPPY=Floppy
+STRDATABASEDIALOG_CDROM=CD-ROM
+STRDATABASEDIALOG_SELECTDATABASE=Select Database
+STRDATABASEDIALOG_FOLDEREXISTS=Folder %s already exist.
+STRDATABASEDIALOG_SUBFOLDER=Folder '%s' is subfolder of '%s'. '%s' is removed.
+STRDATABASEDIALOG_ADDFOLDER=Add folder.
+STRDATABASEDIALOG_NAMEALREADYEXISTS=Name '%s' already exists.
+STRDATABASEDIALOG_FILEALREADYEXISTS=File '%s' is already used for databases.
+STRDATABASEDIALOG_INVALIDFILENAME='%s' is not valid file name.
+STRDATABASEDIALOG_INVALIDNAME='%s' is not valid name for database.
+# New ID:
+STRDATABASEDIALOG_NAMEISRESERVED=Names 'DEFAULTX??' and 'PARAMX??' are reserved.
+
+
+###########################
+# Subdialog in Save Results 
+STRSAVERESULTS_CAPTION=Save results
+DLGSAVERESULTS_INCLUDE=Include:
+DLGSAVERESULTS_DATE=date
+DLGSAVERESULTS_COLUMNLABELS=column labels
+DLGSAVERESULTS_DBINFO=database info
+DLGSAVERESULTS_DETAILS=Details:
+DLGSAVERESULTS_DESCRIPTION=Description:
+DLGSAVERESULTS_ALLITEMS=All items
+DLGSAVERESULTS_SELECTEDITEMS=Selected items
+STRSAVERESULTS_HEADER=Locate results: %d items including %d files and %d directories
+STRSAVERESULTS_DATE=Date: 
+STRSAVERESULTS_DATABASEINFOCAPTION=Items are from databases:
+STRSAVERESULTS_DATABASEINFO=name:%s  creator:%s  description:%s  file:%s
+
+###########################
+# Database info dialog
+STRDATABASEINFO_CAPTION=Database Info:
+DLGDATABASEINFO_CONSTAINSDRIVESANDFOLDERS=Contains drives and folders:
+DLGDATABASEINFO_CREATED=Created:
+DLGDATABASEINFO_FILESIZE=File Size:
+DLGDATABASEINFO_VERSION=Version:
+DLGDATABASEINFO_CREATOR=Creator:
+DLGDATABASEINFO_DESCRIPTION=Description:
+DLGDATABASEINFO_FILES=Files:
+DLGDATABASEINFO_DIRECTORIES=Directories:
+STRDATABASEINFO_UNKNOWN=(Unknown)
+STRDATABASEINFO_DBVERSION1=%d (Short filenames, no size/date)
+STRDATABASEINFO_DBVERSION2=%d (Long filenames, no size/date)
+STRDATABASEINFO_DBVERSION3=%d (Short filenames)
+STRDATABASEINFO_DBVERSION4=%d (Long filenames)
+STRDATABASEINFO_DBVERSIONNEW=%d (LFN: %s OEM: %s)
+STRDATABASEINFO_VOLUMEPATH=Path
+STRDATABASEINFO_VOLUMETYPE=Type
+STRDATABASEINFO_VOLUMELABEL=Label
+STRDATABASEINFO_VOLUMESERIAL=Volume Serial
+STRDATABASEINFO_VOLUMEFILESYSTEM=File System
+STRDATABASEINFO_VOLUMEFILES=Files
+STRDATABASEINFO_VOLUMEDIRECTORIES=Directories
+STRDATABASEINFO_FILENOTEXISTS=File not exist
+STRDATABASEINFO_DBNOTVALID=Database is not valid
+
+###########################
+# File properties dialog
+DLGFILEPROPERTIES_READONLY=&Read-only
+DLGFILEPROPERTIES_HIDDEN=Hi&dden
+DLGFILEPROPERTIES_ARCHIVE=Ar&chive
+DLGFILEPROPERTIES_SYSTEM=&System
+DLGFILEPROPERTIES_COMPRESSED=&Compressed
+DLGFILEPROPERTIES_TYPE=Type:
+DLGFILEPROPERTIES_LOCATION=Location:
+DLGFILEPROPERTIES_SIZE=Size:
+DLGFILEPROPERTIES_ATTRIBUTES=Attributes:
+
+###########################
+# Select columns dialog
+DLGSELECTDETAILS_CAPTION=Select Details
+DLGSELECTDETAILS_OK=OK
+DLGSELECTDETAILS_CANCEL=Cancel
+DLGSELECTDETAILS_MOVEUP=Move &Up
+DLGSELECTDETAILS_MOVEDOWN=Move &Down
+DLGSELECTDETAILS_SHOW=&Show
+DLGSELECTDETAILS_HIDE=&Hide
+DLGSELECTDETAILS_TEXT=Select details for file list:
+DLGSELECTDETAILS_WIDTH=Width of the selected column (in pixels):
+
+###################################################
+# MENUS
+###################################################
+
+###########################
+# Main menu
+MENUMAIN_FILE=&File
+MENUMAIN_FILE_SENDTO=Se&nd To
+MENUMAIN_FILE_CREATESHORTCUT=Create &Shortcut
+MENUMAIN_FILE_DELETE=&Delete
+MENUMAIN_FILE_PROPERTIES=P&roperties
+MENUMAIN_FILE_SAVERESULTS=Save R&esults
+MENUMAIN_FILE_FINDUSINGDATABASES=&Find Using Databases...\tCtrl+Enter
+MENUMAIN_FILE_GLOBALUPDATEDATABASES=&Update Databases\tF9
+MENUMAIN_FILE_STOPUPDATING=Stop &Updating
+MENUMAIN_FILE_UPDATEDATABASES=U&pdate Selected...\tCtrl+F9
+MENUMAIN_FILE_DATABASEINFO=D&atabase Info
+MENUMAIN_FILE_CLOSE=&Close
+MENUMAIN_EDIT=&Edit
+MENUMAIN_EDIT_CUT=Cu&t\tCtrl+X
+ACC_MAIN_EDIT_CUT="X"
+MENUMAIN_EDIT_COPY=&Copy\tCtrl+C
+ACC_MAIN_EDIT_COPY="C"
+MENUMAIN_EDIT_SELECTALL=Select &All\tCtrl+A
+ACC_MAIN_EDIT_SELECTALL="A"
+MENUMAIN_EDIT_INVERTSELECTION=&Invert Selection
+MENUMAIN_VIEW=&View
+MENUMAIN_VIEW_LARGEICONS=Lar&ge Icons
+MENUMAIN_VIEW_SMALLICONS=S&mall Icons
+MENUMAIN_VIEW_LIST=&List
+MENUMAIN_VIEW_DETAILS=&Details
+MENUMAIN_VIEW_ARRANGEICONS=Arrange &Icons
+MENUMAIN_VIEW_ARRANGEICONS_BYNAME=by &Name
+MENUMAIN_VIEW_ARRANGEICONS_BYFOLDER=by &Folder
+MENUMAIN_VIEW_ARRANGEICONS_BYTYPE=by &Type
+MENUMAIN_VIEW_ARRANGEICONS_BYSIZE=by Si&ze
+MENUMAIN_VIEW_ARRANGEICONS_BYDATE=by &Date
+MENUMAIN_VIEW_ARRANGEICONS_SHOWINGROUPS=&Show in Groups
+MENUMAIN_VIEW_ARRANGEICONS_AUTOARRANGE=&Auto Arrange
+MENUMAIN_VIEW_ARRANGEICONS_ALIGNTOGRID=Align to &Gird
+MENUMAIN_VIEW_LINEUPICONS=&Line up icons
+MENUMAIN_VIEW_SELECTDETAILS=&Select Details
+MENUMAIN_VIEW_REFRESH=&Refresh
+MENUMAIN_OPTIONS=&Options
+MENUMAIN_OPTIONS_SETTINGS=&Settings
+MENUMAIN_HELP=&Help
+MENUMAIN_HELP_ABOUT=&About
+
+###########################
+# Popup menus
+MENUPOPUP_CONTEXTMENU_OPENCONTAININGFOLDER=Open Conta&ining Folder
+MENUPOPUP_CONTEXTMENU_REMOVEFROMTHISLIST=R&emove from this list
+MENUPOPUP_CONTEXTMENU_OPEN=&Open
+MENUPOPUP_CONTEXTMENU_SENDTO=Se&nd To
+MENUPOPUP_CONTEXTMENU_CUT=Cu&t
+MENUPOPUP_CONTEXTMENU_COPY=&Copy
+MENUPOPUP_CONTEXTMENU_CREATESHORTCUT=Create &Shortcut
+MENUPOPUP_CONTEXTMENU_DELETE=&Delete
+MENUPOPUP_CONTEXTMENU_PROPERTIES=P&roperties
+MENUPOPUP_NOITEMCONTEXTMENU_VIEW=&View
+MENUPOPUP_NOITEMCONTEXTMENU_VIEW_LARGEICONS=Lar&ge Icons
+MENUPOPUP_NOITEMCONTEXTMENU_VIEW_SMALLICONS=S&mall Icons
+MENUPOPUP_NOITEMCONTEXTMENU_VIEW_LIST=&List
+MENUPOPUP_NOITEMCONTEXTMENU_VIEW_DETAULS=&Details
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS=Arrange &Icons
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_BYNAME=by &Name
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_BYFOLDER=by &Folder
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_BYTYPE=by &Type
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_BYSIZE=by Si&ze
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_BYDATE=by &Date
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_SHOWINGROUPS=&Show in Groups
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_AUTOARRANGE=&Auto Arrange
+MENUPOPUP_NOITEMCONTEXTMENU_ARRANGEICONS_ALIGNTOGRID=Align to &Gird
+MENUPOPUP_NOITEMCONTEXTMENU_REFRESH=&Refresh
+MENUPOPUP_NOITEMCONTEXTMENU_LINEUPICONS=&Line up icons
+
+
+###########################
+# System tray menu
+MENUSYSTEMTRAY_OPENLOCATE=&Open Locate...
+MENUSYSTEMTRAY_GLOBALUPDATEDATABASES=&Update Databases
+MENUSYSTEMTRAY_UPDATEDATABASES=U&pdate Selected...
+MENUSYSTEMTRAY_STOPUPDATING=Stop &Updating
+MENUSYSTEMTRAY_SETTINGS=&Settings
+MENUSYSTEMTRAY_ABOUT=&About
+MENUSYSTEMTRAY_EXIT=&Exit
+
+
+###################################################
+# Strings
+###################################################
+
+# Generic
+STR_YES=Yes
+STR_NO=No
+
+
+###########################
+# File size, type and date
+STR_FILESIZE_BYTES=Bytes
+STR_FILESIZE_BYTES2=bytes
+STR_FILESIZE_KB=KB
+STR_FILESIZE_MB=MB
+STR_FILESIZE_GB=GB
+STR_FILETYPE_FILE=File
+STR_FILETYPE_DIRECTORY=Directory
+STR_FILETYPE_DELETED=Deleted / Moved / Offline file
+
+
+###########################
+# Locate/Update state
+STR_LOCATING=Locating files...
+STR_LOCATING_SUCCESS=Locating success
+STR_LOCATING_FAILED=Locating failed
+STR_LOCATING_INTERRUPTED=Locating interrupted
+STR_LOCATING_SEARCHINGFROMFILE=Searching from file %s.
+STR_LOCATING_FILESFOUND=%d file(s) found
+STR_UPDATING=Updating database...
+STR_UPDATING_DATABASE=Updating database (%s: %s)...
+STR_UPDATING_WRITING=writing database
+STR_UPDATING_SUCCESS=Updating succeeded
+STR_UPDATING_ENDED=Updating ended:
+STR_UPDATING_DONE=done
+STR_UPDATING_FAILED=failed
+STR_UPDATING_INTERRUPTED2=interrupted
+STR_UPDATING_UNAVAILABLEROOT=unavailable root
+STR_UPDATING_INTERRUPTED=Updating interrupted
+STR_UPDATING_THREAD=thread
+
+###########################
+# Tray icon 
+STR_TRAYICON_LOCATE=Locate...
+STR_TRAYICON_UPDATINGDATABASE=Locate (Updating database: %s)
+STR_TRAYICON_UPDATINGDATABASES=Locate (Updating databases: %d/%d threads running)
+STR_TRAYICON_UPDATINGDATABASES2=Updating databases:
+STR_TRAYICON_THREAD=Thread
+STR_TRAYICON_DONE=done
+STR_TRAYICON_INITIALIZING=initializing
+STR_TRAYICON_WRITINGDATABASE=writing database
+
+
+###########################
+# Creating shortcut to desktop
+STR_SHORTCUT=Shortcut
+STR_SHORTCUT_TO=Shortcut to 
+STR_SHORTCUT_TODESKTOP=Do you want the shortcut to be placed on the desktop?
+
+###########################
+# Filetype masks
+STR_FILETYPEMASK_ALLFILES=All Files|*.*||
+STR_FILETYPEMASK_TEXTFILES=Text Files|*.txt||
+STR_FILETYPEMASK_BUILDINTYPES=Text files|txt log|1|Image files|jpg jpeg gif bmp pcx ico cur ani png tif tiff tga emf ps eps|0|Web Files|html htm asp shtm css|6|Document files|doc dot xls wpd rtf pdf|2|Executable files|exe com dll ocx bat|5|Source files|c cpp h inl rc pas java|7|Archive files|zip arj lha lzh ace rar tgz tar gz bz2 jar cab||Sound files|wav mid mp3 wma voc aif aiff cda ogg mpc ape flac|3|Video files|mpeg mpg avi mov ogm|4||
+
+###########################
+# Volume types
+STR_VOLUMETYPE_UNKNOWN=Unknown
+STR_VOLUMETYPE_FIXED=Fixed
+STR_VOLUMETYPE_REMOVABLE=Removable
+STR_VOLUMETYPE_CDROM=CD-ROM
+STR_VOLUMETYPE_REMOTE=Network
+STR_VOLUMETYPE_RAMDISK=Ramdisk
+STR_VOLUMETYPE_DIRECTORY=Directory
+STR_VOLUMETYPE_COMPUTER=Computer
+
+###########################
+# Error messages
+STRERROR_ERROR=Error
+STRERROR_UNKNOWN=Unknown error. Low of memory or corrupted database?
+STRERROR_CANNOTALLOCATE=Cannot allcate memory.
+STRERROR_CANNOTCREATEFILE=Cannot create file %s.
+STRERROR_CANNOTFOUNDORINVALIDFILE=File %s cannot found or invalid file format.
+STRERROR_CANNOTOPENDATABASE=Cannot open database.
+STRERROR_CANNOTREADDATABASE=Cannot read database.
+STRERROR_INVALIDDATABASE=Invalid database format. Update database.
+STRERROR_CANNOTWRITEDATABASE=Cannot write database.
+STRERROR_INVALIDFILEFORMAT=Error loading file %s. Invalid file format.
+STRERROR_NODRIVESSELECTED=No any drives selected.
+STRERROR_DRIVENOTINDATABASE=Path is found in drive that has not included in file database.
+STRERROR_NOCULUMNSSELECTED=No any columns selected. Select at least one.
+STRERROR_CANNOTADDITEM=Cannot add item.
+STRERROR_CANNOTADDITEM2=Cannot add item '%s'.
+
+###########################
+# Misc messages
+STR_RESULTFILEHEADER=Locate32 Results (%d files)
+STR_QUITNOW=Locate32 is updating database.\nDo you want quit now?
+STR_QUITNOW2=Locate32 is updating database and will exit after updating success.\nDo you want quit now?\n\nIf you don't want exit after updating press cancel.
+STR_FILECONTAININGTEXTHELPDIALOG_CAPTION=Info
+# Text in this help dialog is in a file named helptext.txt, translate this file also
+
+
+
+###################################################
+# Strings for updtdb32.exe
+###################################################
+
+STRUPDATEDB_DIRECTORYISNOTVALID=Directory %s is not valid.\n
+STRUPDATEDB_USAGE=%s\nusage updtdb32
+STRUPDATEDB_USAGE2= [-LPATH | -L1] [-D dbname] [-d dbfile] [-Tc creator] [-Td description] [-q] [-H]\n\nparameters:\n\t -Lpath\t\tcheck directory path\n\t -L1\t\tcheck all local hard drives\n\t -d file\tuses database from file 'file'\n\t -D name\tuses database named 'name'\n\t -Tc\t\tset creator\n\t -Td\t\tset description\n\t -q\t\tquiet mode\n\t -h\t\thelp (this screen)\n\t -v\t\tshow version string \n
+STRUPDATEDB_CANNOTCREATEFILE=Error: Cannot create file %s.\n
+STRUPDATEDB_CANNOTWRITEFILE=Error: Cannot write to file %s.\n
+STRUPDATEDB_CANNOTALLOCATEMEMORY=Error: Cannot allocate memory.\n
+STRUPDATEDB_UNKNOWNERROR=Unknown error.\n
+STRUPDATEDB_UPDATINGDATABASE=Updating database %s (file: %s)\n
+# New ID:
+STRUPDATEDB_UPDATINGDATABASE2=Updating database %s
+STRUPDATEDB_SCANNING=Scanning %s\n
+STRUPDATEDB_WRITINGDB=Writing database\n
+# New ID:
+STRUPDATEDB_LOADEDCANNOTBECHANGED=The properties of loaded database '%s' cannot be changed
+
+
+###################################################
+# Strings for locate.exe
+###################################################
+
+STRLOCATE_USAGE=%s\nusage: locate [-s] [-p path] [-t type] [-d dbfile] [-D dbname] [-h] file\n\nparameters:\n\t-s\t\tpause after page\n\t-i\t\tshows what are we looking for\n\t-p\t\tlook in directory 'path'\n\t-t\t\tset extension\n\t-d file\t\tset database file\n\t-D name\t\tuses database named 'name'\n\t-lm:SIZE\tset minimum size to SIZE, eg -lms:100k\n\t-lM:SIZE\tset maximum size to SIZE, eg -lMs:10M\n\t-lDmYYMMDD\tset minimum file modification date\n\t-lDcYYMMDD\tset minimum file creation date\n\t-lDaYYMMDD\tset minimum file last access date\n\t-lDMYYMMDD\tset maximum file modification date\n\t-lDCYYMMDD\tset maximum file creation date\n\t-lDAYYMMDD\tset maximum file last access date \n\t-ln:NUM\t\tset number of maximum found files\n\t-lf\t\tlook only file names (default)\n\t-ld\t\tlook only directory names\n\t-lfd\t\tlook file and directory names\n\t-lc:TEXT\tfile must contain string TEXT\n\t-lcm\t\tstring text is match case (default)\n\t-lcnm\t\tstring text is not match case\n\t-lw\t\tmatch whole name only\n\t-lrn\t\tdon't replace spaces with asterisk\n\t-h\t\thelp, this screen\n
+STRLOCATE_FILENOTFOUND=File %s not found, us

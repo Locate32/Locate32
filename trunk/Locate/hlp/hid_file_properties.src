@@ -1,0 +1,10 @@
+TITLE=Properties (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_properties"></A><B>Properties (File menu/File Context menu)</H1>
+
+<P>This command will show properties dialogs for the selected files.
+
+This command is not visible if no files are selected.</P>
+
+</div>

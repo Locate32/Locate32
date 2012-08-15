@@ -1,0 +1,11 @@
+TITLE=About command (Help menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_help_about"></A>About command (Help menu)</H1>
+
+
+
+<P>Use this command to display the copyright notice and version number of Locate32.</P>
+
+</div>
+

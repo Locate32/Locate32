@@ -1,0 +1,55 @@
+TITLE=Size and Data tab
+CONTENT=
+<div id="tabs">
+<H1><A NAME="tab_sizedate"></A>Size and Date tab</H1>
+
+<P>The <b>Size and Date</b> tab contains the following fields:
+
+<div id="controls">
+<H2><A NAME="ts_minfilesize"></A>$DLGSIZEDATE_MINIMUMFILESIZE@M$</H2>
+<P>
+Use this field to specify the minimum file size. If the minimum size is 
+specified, Locate32 will search only files and <b>$DLGADVANCED_CHECK@M$</b> field in 
+$STRADVANCED_TABCAPTION@A$ tab is disabled.
+</P>
+
+<div id="controls">
+<H2><A NAME="ts_maxfilesize"></A>$DLGSIZEDATE_MAXIMUMFILESIZE@M$</H2>
+<P>
+Use this field to specify the maximum file size. If the maximum size is 
+specified, Locate32 will search only files and <b>$DLGADVANCED_CHECK@M$</b>
+field in $STRADVANCED_TABCAPTION@A$ tab is disabled.
+</P>
+
+<div id="controls">
+<H2><A NAME="ts_filesnewerthan"></A>$DLGSIZEDATE_FILEDATEATLEAST@M$</H2>
+<P>
+Files and folder which modification, creation or last access dates are
+older than a given date are ignored. You can specify explicit date or 
+relative date (with respect to the current date) by pressing the down arrow 
+button on the right of the date field.
+</P>
+<P>
+<b>Note:</b> all dates before 1.1.1980 are consider as same and are shown as "Before 1.1.1980". 
+If you specify, say, 1.1.1970 as "files older than" date, all files older than 1.1.1980 are shown.
+</P>
+
+
+
+<div id="controls">
+<H2><A NAME="ts_filesolderthan"></A>$DLGSIZEDATE_FILEDATEATMOST@M$</H2>
+<P>
+Files and folder which modification, creation or last access dates are 
+newer than a given date are ignored. You can specify explicit date or 
+relative date (with respect to the current date) by pressing the down arrow 
+button on the right of the date field.</P>
+<P>
+<b>Note:</b> all dates before 1.1.1980 are consider as same and are shown as "Before 1.1.1980". 
+If you specify, say, 1.1.1970 as "files newer than" date, all files newer than 31.12.1979 are shown.
+</P>
+
+
+</div>
+
+</div>
+

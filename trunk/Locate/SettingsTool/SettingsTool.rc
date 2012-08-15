@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SETTINGSTOOL        ICON                    "SettingsTool.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "SettingsTool"
+    IDS_SAVESETTINGS        "Save settings"
+    IDS_RESTORESETTINGS     "Restore settings"
+    IDS_SAVEFILTER          "Registry script|*.reg|Registry backup|*.opt|"
+    IDS_RESTOREFILTER       "Registry files|*.reg;*.opt|Registry script|*.reg|Registry backup|*.opt|"
+    IDS_ERROR               "Error"
+    IDS_ERRORCANNOTOPENKEY  "Cannot open registry key. Locate is not installed? System error: %s"
+    IDS_ERRORCANNOTEXPORTSETTINGS "Cannot export settings. System error: %s"
+    IDS_ERRORREGEDITFAILED  "Regedit returned error."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REMOVESETTINGS      "Remove settings"
+    IDS_WANTBACKUP          "Do you want make a backup of your settings?"
+    IDS_ERRORCANNOTOPENKEY2 "Cannot open registry key. System error: %s"
+    IDS_ERRORCANNOTDELETEKEY "Cannot remove settings. System error: %s"
+    IDS_ERRORCANNOTCREATEKEY "Cannot create registry key. System error: %s"
+    IDS_ERRORCANNOTRESTOREKEY "Cannot restore settings. System error: %s"
+    IDS_ERRORCANNOTENABLEPRIVILEGE "Cannot enable privilege. System error: %s"
+    IDS_SAVEFILTER9x        "Registry script|*.reg|"
+    IDS_RESTOREFILTER9x     "Registry script|*.reg|"
+    IDS_ERRORCANNOTRUNREGEDIT "Cannot run regedit.exe. System error: %s"
+    IDS_LOCATE32RUNNING     "Locate32 should not be running while settings are restored. Quit Locate32 before continuing."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Finnish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+#ifdef _WIN32
+LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,7,5130
+ PRODUCTVERSION 1,0,7,5130
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000904b0"
+        BEGIN
+            VALUE "FileDescription", "Settings import and export tool for Locate"
+            VALUE "FileVersion", "1, 0, 7, 5130"
+            VALUE "InternalName", "SetTool"
+            VALUE "LegalCopyright", "Copyright (C) 2006-2007 Janne Huttunen"
+            VALUE "OriginalFilename", "SetTool"
+            VALUE "ProductName", "SetTool"
+            VALUE "ProductVersion", "1, 0, 7, 5130"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x9, 1200
+    END
+END
+
+#endif    // Finnish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 165, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Locate Settings Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Save settings to a file",IDC_SAVESETTINGS,7,7,151,22
+    PUSHBUTTON      "Restore settings from a file",IDC_RESTORESETTINGS,7,40,151,22
+    PUSHBUTTON      "Remove current user settings",IDC_REMOVESETTINGS,7,70,151,22
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,79 @@
+TITLE=Advanced / Database dialog / Database Settings
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_databaseadv"></A>Advanced / Database dialog / Database Settings</H1>
+
+<p>This page can be used to specify which files and directories are included into databases. 
+You can also specify drive and directory maps, which can be useful when same databases are used in 
+multiple computers.
+
+<h2><a name="ska_type"></a>$DLGDBADVANCEDDIALOG_EXCLUDEFILESANDDIRECTORIES@CM$</h2>
+
+<div id="keyboard_settings_level1">
+<p><b><a name="sda_includefiles"></a>$DLGDBADVANCEDDIALOG_INCLUDEPATTERN@CpM$</b>:
+You can use this field to specify which files are included into the database. 
+For example, you can type "*.doc;*.xls;docu*" to include all files with extensions doc and xls and files 
+beginning with "docu" (and nothing else). If you want to include all
+files, leave this field empty.
+</p>
+<p><b><a name="sda_includedirectories"></a>$DLGDBADVANCEDDIALOG_INCLUDEDIRECTORIESPATTERN@CpM$</b>:
+You can use this option to specify which directories are included into the database.
+For example, you can type "pics;docs*" to include all directories which name is
+"pics" or begins with "docs". If you want to include all
+directories, leave this field empty.
+</p>
+<p><b><a name="sda_excludefiles"></a>$DLGDBADVANCEDDIALOG_PATTERN@CpM$</b>:
+You can use this field to specify which files you want to be excluded from the database. 
+For example, you can type "*.tmp;*~" to exclude all files with extension "tmp" and files
+which last character is '~'.
+</p>
+<p><b><a name="sda_excludedirectories"></a>$DLGDBADVANCEDDIALOG_DIRECTORY@CpM$</b> and
+<b>$DLGDBADVANCEDDIALOG_EXCLUDED@CpM$</b>:
+You can use this field to specify which directories are excluded from the database. For example, 
+to exclude "C:\Windows\sytem32" directory, type this to the field or use <b>$DLGDBADVANCEDDIALOG_BROWSE@CpM$</b>
+button to choose this directory, and press <b>$DLGDBADVANCEDDIALOG_ADDFOLDER@CpM$</b>. 
+</p>
+<p><b><a name="sda_onlycontent"></a>$DLGDBADVANCEDDIALOG_EXCLUDEONLYCONTENT@CpM$</b>:
+Enable this option if you want to exclude only the content of directories. For exampe,
+if this option is enabled, the directories specied in <b>$DLGDBADVANCEDDIALOG_EXCLUDED@CpM$</b> list are
+included into the database (and therefore the directories returned when searching folders), but the files 
+and subdirectores in these directories are not included. 
+</p>
+
+</div>
+
+
+
+<h2><a name="sda_maps"></a>$DLGDBADVANCEDDIALOG_DRIVEANDDIRECTORYMAPS@CM$</h2>
+
+<p>Drive and directory maps can be useful when the database is used in several computers such 
+that the files included into the database are accessed using different path in each computer.
+For example, consider the following situation. We have two computers: PC1 and PC2. PC1 have drives
+C: and D: which are shared with Windows file sharing using names, say, WINDOWS and STORAGE. 
+So PC2 can access to files in drive C: using path "\\PC1\WINDOWS" and to files in D: using "\\PC1\STORAGE". 
+</p>
+
+<p>
+In PC1, you have created a database which includes files in drives C: and D:. The file for this 
+database is D:\DB\database.dbs. You want to use this database in PC2, so for PC2 you specify a 
+database and use the path "\\PC1\STORAGE\DB\database.dbs" as its file. Now you can search files in PC1 
+using this database. However, search results will appear as files in drives C: and D:.
+</p>
+
+<p>You can use directory maps to handle this problem using drive maps as follows. 
+You choose "\\PC1\WINDOWS" from the maps list (this directory
+is appears automatically in this list if you have added the directory to the "Drives and Directories:" list in 
+the Database settings dialog, you can also click "$STRDBADVANCEDDIALOG_CLKFORNEWMAP$" to add 
+the path to directly by yourself),  type "C:" to <b>$DLGDBADVANCEDDIALOG_PATHINDATABASE@CM$</b> field
+and press <b>$DLGDBADVANCEDDIALOG_SET@CM$</b>. Same way you connect "\\PC1\STORAGE" to "D:". Now, if you
+search files using these databases, the results are seen as files in "\\PC1\WINDOWS" and 
+"\\PC1\STORAGE".</p>
+<p>
+It can be reasonable to specify maps also in PC1. For example, you can specify that
+the drives C: and D: appear in the database with labels, say, WINDOWS and STORAGE. To do that, in PC1 you 
+specify maps C: -> WINDOWS (choose C: in the maps list and type WINDOWS to 
+<b>$DLGDBADVANCEDDIALOG_PATHINDATABASE@CM$</b> field) and D: -> STORAGE, and in PC2 you specify maps
+\\PC1\WINDOWS -> WINDOWS and \\PC1\STORAGE -> STORAGE.
+</p>
+
+</div>

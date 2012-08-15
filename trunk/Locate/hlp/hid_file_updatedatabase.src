@@ -1,0 +1,11 @@
+TITLE=Update Database menu (File menu/System tray menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_updatedatabase"></A>Update Database menu (File menu/System tray menu)</H1>
+
+<P>This menu contains the list of databases. If you select a database from this list, 
+this database will be updates. </P>
+
+<P>This command is not available while databases are updated.</P>
+
+</div>

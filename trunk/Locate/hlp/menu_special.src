@@ -1,0 +1,76 @@
+TITLE=Special menu commands
+CONTENT=
+<H1><A NAME="menu_edit"></A>Special menu (File menu or context menus for the selected items)</H1>
+
+<P>The <b> Special</b> menu is shown as a submenu in a <a href="menu_contextmenu.htm">context menu for files</a> 
+or in <a href="menu_file.htm">File menu</a>. It offers the following commands:
+
+<TABLE id="menutable" cols=2>
+<TBODY>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_copypathtoclipboard.htm">Copy path to clipboard</A></TD>
+<TD width=70%>Copies the path of the selected files to the clipboard.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_copyshortpathtoclipboard.htm">Copy short path to clipboard</A></TD>
+<TD width=70%>Copies the path of the selected files to the clipboard in short name format.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_copydatatoclipboard.htm">Copy data to clipboard</A></TD>
+<TD width=70%>Copies formatted results to the clipboard.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_changefilename.htm">Change filename</A></TD>
+<TD width=70%>Shows dialog which can be used to rename file.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_changecaseforfilename.htm">Change case for filename</A></TD>
+<TD width=70%>Changes case for names of selected files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_showtotalsize.htm">Show total size of selected files</A></TD>
+<TD width=70%>Calculates the total size of selected files.</TD>
+</TR>
+
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_updatefileinformation.htm">Update file information</A></TD>
+<TD width=70%>Reads file information from file.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_computeMD5sums.htm">Compute MD5 sums</A></TD>
+<TD width=70%>Computes MD5 sum for selected files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_computeMD5sumsforequalsizefiles.htm">Compute MD5 sums for equal size files</A></TD>
+<TD width=70%>Computes MD5 sum for equally sized files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_copyMD5sumstoclipboard.htm">Copy MD5 sums to clipboard</A></TD>
+<TD width=70%>Copies MD5 sums to clipboard.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_removedeletedfiles.htm">Remove deleted files</A></TD>
+<TD width=70%>Remove deleted files from the result list.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%><A HREF="hid_special_updatedatabasesforselectedfiles.htm">Update databases of selected files</A></TD>
+<TD width=70%>Update databases that correspond to the selected files.</TD>
+</TR>
+
+
+</TBODY>
+</TABLE>
+</p>
+</div>

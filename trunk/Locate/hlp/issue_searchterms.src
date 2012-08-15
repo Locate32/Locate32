@@ -1,0 +1,129 @@
+TITLE=Search terms
+STYLES=ul li { margin: 4pt 0 4pt 0; }
+CONTENT=
+<H1><A NAME="issue_searchterms"></A>Search syntax</H1>
+
+<p>
+Basiclly, if you want to find files containing, say, "bar" (e.g. 
+files "foobar", "barbox" and "foobarbox"), you just need to type "bar" to
+<b>$DLGNAME_NAMED@M$</b> field and press <b>$DLGMAIN_FINDNOW@M$</b> button or hit Enter. 
+However, more advanced searching terms than that can be used and 
+the behaviour of these terms can also be widely altered using check boxes
+in $STRADVANCED_TABCAPTION@A$ tab and options in Advanced settings. 
+In this page we try to clarify the meaning of all these possible search terms
+and options.</p> 
+
+<p>
+From now on we mean by "by default" the state after clean installation, i.e., when 
+<b>$DLGADVANCED_MATCHWHOLENAME@M$</b>, <b>$DLGADVANCED_USEWHOLEPATH@M$</b> and 
+<b>$DLGADVANCED_REPLACESPACES@M$</b> check boxes in $STRADVANCED_TABCAPTION@A$ tab 
+are unchecked. </p>
+
+<h2>Asterisks, extensions and options in $STRADVANCED_TABCAPTION@A$ tab</h2>
+
+<p>You can use question mark '?' and asterisk '*' in the same way as in DOS like command prompt to 
+mean an arbitrary character or a group of arbitrary characters, respectively. 
+For example, "foo?bar" find files, say, "foo1bar", "fooabar" but not "foobar" or "foo11bar".
+Furthermore, "foo*bar" find any files containing "foo" followed by "bar".</p>
+
+<p>You can also specify an extension. For example, 
+you can type "*.txt" to find text files. In this case do not specify extensions 
+in <b>$DLGNAME_EXTENSIONS@M$</b> field, otherwise files like "foo.txt.txt" are found only. </p>
+
+<p>By default, Locate32 find files that contain the given search term. 
+For example, "foobar" works as "*foobar*" (you can actually see this in the title bar). 
+If you want to find files which names are exactly the given text, you can enable 
+<a href="tab_advanced.htm#ta_matchwholename">$DLGADVANCED_MATCHWHOLENAME@M$</a> check box
+in $STRADVANCED_TABCAPTION@A$ tab.<p>
+
+<p>
+Some exceptions to the above: 
+<ul>
+<li>If you specify an extension in <b>$DLGNAME_NAMED@M$</b> field and 
+<b><a href="settings_advanced.htm#sa_noasterisktoendifextension">$STRADVANCEDSETTINGS_NOASTERISKTOTAILIFEXTENSIONGIVEN@C$</a></b> option in 
+Advanced settings is enabled, the asterisk * is not added to the tail
+(e.g. "foo.txt" is the same as "*foo.txt", but not the same as "*foo.txt*"). </li>
+<li>When <b><a href="settings_advanced.htm#sa_matchwholenameifasterisks">$STRADVANCEDSETTINGS_MATCHWHOLENAMEIFASTERISKS@C$</a></b> option in 
+Advanced settings is enabled, any asterisks in the given search term cause that the term is 
+treated as if <a href="tab_advanced.htm#ta_matchwholename">$DLGADVANCED_MATCHWHOLENAME@M$</a>
+check box is enabled (i.e. no extra asterisks are added).
+</li>
+</ul>
+</p>
+
+
+<P>If <a href="tab_advanced.htm#ta_usewholepath">$DLGADVANCED_USEWHOLEPATH@M$</a> check box is checked, 
+the given search term is compared to the whole path (not just to file name part). 
+For example, "*foo*bar*" finds a file "C:\foo\bar.txt". 
+</P>
+
+
+<P>If <a href="tab_advanced.htm#ta_replacespaces">$DLGADVANCED_REPLACESPACES@M$</a> check box is selected,
+spaces replaced with asterisks '*' before the given search term is parsed. 
+</P>
+
+<h2>Multiple search terms</h2>
+
+	
+<p>You can also specify several searching terms. For example, for example "foo,bar" finds files 
+that contains foo or bar (or foo <b>and</b> bar, see below). The possible separators are shown in 
+the table below. If you want to search files which name has these character, use apostrophes 
+(e.g., type "foo,bar","cat*dog").</p>
+
+<center>
+<TABLE id="separatortable" cols=2>
+<TBODY>
+<TR class="toprow"><TD width=15%>Separator</b></TD><TD width=85%>Special notes</TD></TR>
+<TR><TD width=25%>, </TD><TD width=75%></TD></TR>
+<TR><TD width=25%>;</TD><TD width=75%></TD></TR>
+<TR><TD width=25%> &nbsp;&nbsp; (space)</TD><TD width=85%>
+Only if <b><a href="settings_advanced.htm#sa_spaceisseparator">$STRADVANCEDSETTINGS_SPACEISSEPARATOR@C$</a></b> 
+option in Advanced settings is enabled</TD></TR>
+<TR><TD width=25%>| </TD><TD width=75%>
+If <b><a href="settings_advanced.htm#sa_andmodealways">$STRADVANCEDSETTINGS_ANDMODEALWAYS@C$</a></b> is enabled, 
+switches also to OR mode</TD></TR>
+</TBODY>
+</TABLE>
+</center>
+
+<p>By default Locate32 find files which names contain any of the given search terms (OR mode).
+If you want to find files which names contain all of the given search terms (AND mode), you can enable
+<b><a href="settings_advanced.htm#sa_andmodealways">$STRADVANCEDSETTINGS_ANDMODEALWAYS@C$</a></b> option
+in Advanced settings.</p>
+
+<p>
+You can also use logical operations + and - if you enable 
+<a href="settings_advanced.htm#sa_logicalops">$STRADVANCEDSETTINGS_ENABLELOGICALOPERATIONS@Cp$</a></b>
+option in Advanced settings. For example, if you want search files which names contain "foo" and "bar" 
+(but not necessarily in that order", you can type "+foo,+bar". If you want to search files, which names 
+do <b>not</b> contain "foo" but contain "bar", type "-foo","+bar". To find files which name contains + or -, 
+you can use apostrophe (e.g., type: +"-foo",+"+bar").
+</p>
+
+<p>
+The used mode is determined as follows:
+<ul>
+<li>If logical operations are enabled and any of given search terms begins with + or -, the mode is always AND 
+(even if '|' is given). The rest of terms which do not contain + or -
+are treated as if + is given. </li>
+<li>If <a href="settings_advanced.htm#sa_andmodealways">$STRADVANCEDSETTINGS_ANDMODEALWAYS@C$</a></b>
+is enabled and '|' is not used as a separator, the mode is AND.</li>
+<li>If <a href="settings_advanced.htm#sa_andmodealways">$STRADVANCEDSETTINGS_ANDMODEALWAYS@C$</a></b>
+is disabled or '|' is used as a separator, the mode is OR.</li>
+</ul>
+</p>
+
+<h2>Regular expressions</h2>
+
+<p>You can use PERL compatible regular expression. For example, you can search files which contain 
+"foo" or "bar", type: ":foo|bar" (':' at the beginning tells that the given string is a regular expression). 
+If you want to compare the regular expression to the whole path (instead of just the file name),
+type "::foo|bar". 
+</p>
+<p>
+Regular expressions are implemented by using <a href="http://www.pcre.org/">PCRE library</a>.  
+An introduction to PERL regular expressions is 
+<a href="http://www.tutorialized.com/view/tutorial/An-Introduction-to-Perl-Regular-Expressions/26007">here</a>.
+</p>
+
+

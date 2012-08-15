@@ -1,0 +1,48 @@
+TITLE=Miscellaneous actions (Keyboard Shortcuts)
+CONTENT=
+<div id="actions">
+<H1><A NAME="actions_misc"></A>Miscellaneous actions (Keyboard Shortcuts)</H1>
+
+<P>
+The Miscellaneous category contains the following actions:
+
+<div id="actions">
+
+<p><b><a name="amisc1"></a>$STRACTION_SENDMESSAGE@M$</b> and <b><a name="amisc2"></a>$STRACTION_POSTMESSAGE@M$</b>:
+These actions can be used to send messages using SendMessage and 
+PostMessage Win32 API functions. <a name="amisc_wnd"><b>Wnd</b></a> is the handle 
+to the window (e.g., "0x00345A45") or one of the following: HWND_BROADCAST, LOCATEDLG, 
+Find(class,name) (finding a window which class contains text "class" and name contais "name").
+<b>Msg</b> is the message (integer value). <b>wParam</b> and <b>lParam</b> can be DWORD values 
+(e.g., 0x0123A34B) or data in the same form as in "File containing text" field (see <A href="issue_datasearch.htm">this</A>). 
+<b>These actions can cause Locate32, other programs or even Windows 
+to crash or function improperly. USE ONLY IF YOU KNOW WHAT YOU ARE DOING!</b>
+</p>
+
+<p><b><a name="amisc3"></a>$STRACTION_EXECUTECOMMAND@M$</b>:
+This action can be used to execute command (e.g. open the selected file into 
+a viewer application). The following variables can be used in the 
+<b>Command:</b> fields:
+<TABLE id="variablestable" cols=2>
+<TBODY>
+<TR class="toprow"><TD class="action_name">Category</b></TD><TD class="action_description">Description</TD></TR>
+<TR><TD class="variable_name">%d</TD>
+    <TD class="variable_description">The path of the selected file (e.g. "C:\Windows\notepad.exe"). </TD></TR>
+<TR><TD class="variable_name">%p</TD>
+    <TD class="variable_description">The parent directory for the selected file (e.g. "C:\Windows"). </TD></TR>
+<TR><TD class="variable_name">%f</TD>
+    <TD class="variable_description">The file name (e.g. "notepad.exe"). </TD></TR>
+<TR><TD class="variable_name">%n</TD>
+    <TD class="variable_description">The file name without extension (e.g. "notepad"). </TD></TR>
+<TR><TD class="variable_name">%e</TD>
+    <TD class="variable_description">The extension (e.g. "exe"). </TD></TR>
+</TBODY>
+</TABLE>
+This action is same as the "$STRACTION_EXECUTECOMMAND@M$" action in the $STRACTION_RESULTLIST$ gategory.
+</p>
+
+<p><b><a name="amisc4"></a>$STRACTION_INSERTASTERISKS@M$</b>:
+This action will add asterisks '*' to the beginning and end of the string in "$DLGNAME_NAMED@M$" field. </p>
+
+
+</div>

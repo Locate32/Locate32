@@ -1,0 +1,29 @@
+TITLE=How to index network drives, USB memory sticks, external drives, etc...
+CONTENT=
+<H1><A NAME="howto_externaldrives"></A>How to index network drives, USB memory sticks, external drives, etc...</H1>
+
+<p>By default, only local drives are included into databases. You can also index nonlocal drives, 
+such as network drives or USB memory sticks. To do that:
+<ul>
+<li>open Settings dialog and select Databases tab,</li>
+<li>select a database which you want to include the content 
+of the drive and press Edit or create a new database,</li>
+<li>choose "Custom" check box, and</li>
+<li>use "Add Directory" button to add the drives and directories 
+to the list of drivers and directories.</li>
+</ul></p>
+
+<p>If the external drive, network share or other directory is 
+unavailable when the database is updated, the content of this drive or directory is skipped 
+and the database will not contain any information about this drive or directory. 
+However, you can use "Stop if root unavailable" option to prevent this happen. 
+If this option is enabled, the update process is stopped when unavailable drive or
+directory is discovered. </p>
+
+<p>
+Note that this "stopping" means that the database is not updated at all if drive or 
+directory is unavailable (this is due to the fact that databases are written just at the end of 
+updating process). Therefore, you should setup databases such that drives which may become 
+unavailable are in separate databases.
+</p>
+

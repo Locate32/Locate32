@@ -1,0 +1,9 @@
+TITLE=Change filename (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_changefilename"></A>Change filename (Special menu)</H1>
+
+<P>This command can be used to change file name. This command will show a
+rename dialog even if "Explorer style renaming" option in Advanced settings is selected.</P>
+
+</div>

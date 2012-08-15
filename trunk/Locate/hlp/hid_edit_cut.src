@@ -1,0 +1,11 @@
+TITLE=Cut command (Edit menu)
+CONTENT=
+<H1><A NAME="hid_edit_cut"></A>Cut command (Edit menu)</H1>
+
+<P>When a text box has keyboard focus, use this command to cut selected text to the clipboard. </P>
+
+<P>Use this command to copy select files to clipboard. The selected files moved when 
+a file operation is executed (e.g., by using Windows Explorer). </P>
+
+<P>Copying data to the clipboard replaces the contents previously stored there.</P>
+

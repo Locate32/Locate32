@@ -1,0 +1,51 @@
+TITLE=The menu for system tray icon
+CONTENT=
+<div id="menus">
+<H1><A NAME="menu_file"></A>The menu for system tray icon</H1>
+
+<P>The menu for system tray icon contains the following commands:
+
+<TABLE id="menutable" cols=2>
+<TBODY>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_systemtray_openlocate.htm">Open Locate...</A></TD>
+<TD width=80%>Opens Locate dialog.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_updatedatabases.htm">Update Databases</A></TD>
+<TD width=80%>Update databases.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_updatedatabases.htm">Update Selected...</A></TD>
+<TD width=80%>Update selected databases.</TD>
+
+</TR>
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_updatedatabases.htm">Update Database</A></TD>
+<TD width=80%>Update a single database.</TD>
+</TR>
+
+</TR>
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_stopupdating.htm">Stop Updating</A></TD>
+<TD width=80%>Stop update process.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=21%><A HREF="hid_tools_settings.htm">Settings</A></TD>
+<TD width=79%>Opens the settings dialog.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%><A HREF="hid_file_exit.htm">Exit</A></TD>
+<TD width=80%>Exit Locate.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</P>
+
+</div>
+

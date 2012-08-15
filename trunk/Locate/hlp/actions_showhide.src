@@ -1,0 +1,62 @@
+TITLE=Show / Hide dialog actions (Keyboard Shortcuts)
+CONTENT=
+<div id="actionspage">
+<H1><A NAME="actions_misc"></A>Show / Hide dialog (Keyboard Shortcuts)</H1>
+
+<P>
+The Show / Hide dialog category contains the following actions:
+
+<div id="actions">
+
+<p><b><a name="ash1"></a>$STRACTION_DIALOGSHOW@M$</b>:
+Opens the Locate32 dialog (restores it if it's minimized). 
+</p>
+
+<p><b><a name="ash2"></a>$STRACTION_DIALOGMINIMIZE@M$</b>:
+Minimizes the Locate32 dialog. 
+</p>
+
+<p><b><a name="ash3"></a>$STRACTION_DIALOGCLOSE@M$</b>:
+Closes the Locate32 dialog.
+</p>
+
+<p><b><a name="ash4"></a>$STRACTION_DIALOGSHOWORHIDE@M$</b>:
+Minimizes the Locate32 dialog if it is open and visible, otherwise
+opens the dialog. 
+</p>
+
+<p><b><a name="ash5"></a>$STRACTION_DIALOGOPENORCLOSE@M$</b>:
+Closes the Locate32 dialog if it is open and visible, otherwise
+opens the dialog. 
+</p>
+
+<p><b><a name="ash6"></a>$STRACTION_DIALOGRESTORE@M$</b>:
+Restores the Locate32 dialog if it is minimized. 
+</p>
+
+<p><b><a name="ash7"></a>$STRACTION_DIALOGMAXIMIZE@M$</b>:
+Maximizes the Locate32 dialog. 
+</p>
+
+<p><b><a name="ash8"></a>$STRACTION_DIALOGMAXIMIZEORRESTORE@M$</b>:
+Maximizes the Locate32 dialog or, if it is already maximized, restores it to original size. 
+</p>
+
+<p><b><a name="ash9"></a>$STRACTION_DIALOGSHOWOPENORHIDE@M$</b>:
+Minimizes the Locate32 dialog if it is visible, otherwise opens the dialog.
+</p>
+
+<p><b><a name="ash10"></a>$STRACTION_DIALOGSHOWANDDIRFROMEXPLORER@M$</b>:
+Shows dialog. If Windows Explorer is visible, Locate32 tries to resolve the current
+directory and put it to "Look In" field. 
+</p>
+
+<p><b><a name="ash11"></a>$STRACTION_DIALOGSTOPLOCATINGORCLOSE@M$</b>:
+If the Locate32 dialog is searching files, stops searching. Otherwise closes the dialog. 
+Useful with Esc. 
+</p>
+
+
+</div></P>
+
+</div>

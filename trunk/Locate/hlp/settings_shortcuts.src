@@ -1,0 +1,126 @@
+TITLE=Keyboard Shortcuts tab / Settings dialog
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_shortcuts"></A>Keyboard shortcuts settings</H1>
+
+<p>The keyboard shortcuts tab can be used to specify keyboard shortcuts, i.e., 
+to specify what happens when you press a key in the Locate32 dialog.
+You can also specify global keys which works also when Locate32 dialog is not activated 
+(e.g. global Win-F to open Locate32 dialog).
+</p>
+
+<h2><a name="sk_list"></a>Shortcuts list</h2>
+
+<p>
+To specify new shortcut, click <b><a name="sk_new"></a>New</b> button on top, specify which 
+key want to assign using fields in <b>Shortcut</b> group and specify an action (multiple 
+actions are also allowed) for the shortcut using fields in <b>Action</b> group (fields in 
+these groups are described below). To adjust the settings of existing shortcut, select the 
+shortcut from the list and use options in <b>Shortcut</b> and <b>Action</b> groups. 
+To remove already specified shortcuts, 
+select the shortcut from the list and press <b><a name="sk_remove"></a>Remove</b> button. 
+The order of keyboard shortcuts can be adjusted using <b><a name="sk_up"></a>Up</b> and 
+<b><a name="sk_down"></a>Down</b> buttons. The default keyboard shortcuts can be loaded using 
+<b><a name="sk_reset"></a>Reset</b> button. </p>
+
+<h2><a name="sk_shortcutgroup"></a>Shortcut group</h2>
+<p>This group contains the fields which can be used to the key to be assigned.</p>
+
+<div id="keyboard_settings_level1">
+
+<p><b><a name="sk_key"></a>Key</b> and <b>Virtual Key</b>:
+The easiest way to enter a key is to choose the <b>Key</b> check box and
+press a key given compination when the field on the right of the <b>Key</b> check box 
+is focused. Then a pressed key should appear in this field. <br><br>
+This way does not work for all key compinations. For example, you can't use keys Enter or Esc this way,
+because these keys will close the settings dialog. For such keys you can use 
+<b>Virtual Key</b> check box and specify a virtual key for key compination. In princible, 
+the virtual key is a numeric value between 0-255, but you can also choose predefined 
+virtual keys using the dropdown list of the field. You can also key, say, A by typing "A".
+When you specify a key using a virtual key, you can use <b><a name="sk_modifiers"></a>Ctrl</b>, 
+<b>Alt</b>, <b>Shift</b> and <b>Win</b> check boxes to specify key combination. 
+</p>
+
+<p><b><a name="sk_frommnemonic"></a>From Mnemonic</b>:
+In Windows applications you can typically select a control in a dialog using Alt with a key 
+which is corresponds to a letter which is underlined in the label (you may need to press 
+Alt to see this). For example, "Named" field (N is underlined) can be chosen using 
+pressing Alt-N (English version only). Such letters are called as mnemonics. 
+When <b>From Mnemonic</b> option for the shortcut is chosen, the key used for the shortcut 
+is the mnemonic (with Alt) associated to chosen action. This check box is enabled 
+only if the chosen action is "Activate control" with some control which has a mnemonic. 
+</p>
+
+<p><b><a name="sk_whenpressed"></a>Pressed when</b>:
+This group of options can be used to specify situations when the shortcut is effective. 
+For example, you can specify a shortcut which works only when the focus is in the results list
+by enabling "Focus in the results list" option and disabling "Focus not in the result list" 
+option. Furthermore, if you want to specify a key which works only if focus is in Size and Date tab, 
+enable options "Focus not in the results list" and "Size and data tab shown" and disable options 
+"Focus in the results list", "Name tab shown" and "Advanced tab shown". 
+</p>
+
+<p><b><a name="sk_advanced"></a>Advanced</b>:
+This button opens a dialog which contains more options related to the keyboard shortcut. 
+These options are mainly used to specify global keys which works also when Locate32 dialog 
+is not open. See <a href="settings_shortcutsadvanced.htm">Advanced settings (Keyboard shortcuts)</a>.
+</p>
+
+</div>
+
+
+<h2><a name="sk_actionsgroup"></a>Action group</h2>
+<p>This group contains the fields which can be used to specify one or more actions for the key.</p>
+
+<div id="keyboard_settings_level1">
+<p><b><a name="sk_action"></a>Action</b> and <b>SubAction</b>:
+These combo boxes are used to specify actions. Select a gategory of actions from <b>Action</b> combo box
+and an action using <b>SubAction</b> combo box (the label for this combo box can also be 
+"Control", "Tab" or "Menu Item"). The categories are described in the following table.
+<TABLE id="actionstable" cols=2>
+<TBODY>
+<TR class="toprow"><TD class="action_name">Category</b></TD><TD class="action_description">Description</TD></TR>
+<TR><TD class="action_name">$STRACTION_ACTIVATECONTROL$</TD>
+    <TD class="action_description">Can be used to activate controls in the Locate32 dialog. If control is button, the action associated to the control is executed. </TD></TR>
+<TR><TD class="action_name">$STRACTION_ACTIVATETAB$</TD>
+    <TD class="action_description">Can be used to select a tab in the Locate32 dialog.</TD></TR>
+<TR><TD class="action_name">$STRACTION_MENUCOMMAND$</TD>
+    <TD class="action_description">Can be used to execute commands in menus.</TD></TR>
+<TR><TD class="action_name">$STRACTION_SHOWHIDEDIALOG$</TD>
+    <TD class="action_description">Can be used to make the Locate32 dialog visible or hide it. The actions in this category are described <a href="actions_showhide.htm">here</a>.</TD></TR>
+<TR><TD class="action_name">$STRACTION_RESULTLIST$</TD>
+	<TD class="action_description">Actions associated to the items in the results list. The actions in this category are described <a href="actions_resultslist.htm">here</a>.</TD></TR>
+<TR><TD class="action_name">$STRACTION_MISC$</TD>
+	<TD class="action_description">Miscellaneous actions which does not belong to other categories. The actions in this category are described <a href="actions_misc.htm">here</a>.</TD></TR>
+<TR><TD class="action_name">$STRACTION_CHANGEFIELD$</TD>
+	<TD class="action_description">Actions to change the values of fields. <a href="actions_changefields.htm">More information</a>.</TD></TR>
+<TR><TD class="action_name">$STRACTION_PRESETS$</TD>
+	<TD class="action_description">Can be used to load presets using keyboard.</TD></TR>
+<TR><TD class="action_name">$STRACTION_HELP$</TD>
+	<TD class="action_description">Actions associated to the help file. The actions in this category are described <a href="actions_help.htm">here</a>.</TD></TR>
+<TR><TD class="action_name">$STRACTION_SETTINGS$</TD>
+	<TD class="action_description">Actions associated to settings. The actions in this category are described <a href="actions_settings.htm">here</a>.</TD></TR>
+</TBODY>
+</TABLE>
+</p>
+
+<p><b><a name="sk_actionstoolbar"></a>Multiple actions</b>:
+Multiple actions for a shortcut can be specified using buttons above 
+<b>SubAction</b> field as follows. First, specify first action using 
+<b>Action</b> and <b>SubAction</b> combo boxes. Then press 
+<img src="images/sk_addaction.gif" alt="Add Action"> button and specify the 
+second action. Continue similarly until you have specified all actions. 
+The previous and next action 
+can be selected using <img src="images/sk_prev.gif" alt="Previous Action"> and
+<img src="images/sk_next.gif" alt="Next Action"> buttons and the selected action 
+can be deleted using <img src="images/sk_removeaction.gif" alt="Remove Action">
+button. The order of actions can be changed using 
+<img src="images/sk_swapwprev.gif" alt="Swap with Previous"> (swap with the previous action) and
+<img src="images/sk_swapwnext.gif" alt="Swap with Next"> (swap with the next action) buttons .
+</p>
+
+
+</div>
+
+
+</div>

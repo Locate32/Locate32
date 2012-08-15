@@ -1,0 +1,8 @@
+TITLE=Update databases of selected files (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_updatedatabasesforselectedfiles"></A>Update databases of selected files (Special menu)</H1>
+
+<P>When chosen, the databases from which the selected files are found, are updated. </P>
+
+</div>

@@ -1,0 +1,47 @@
+TITLE=Locate dialog
+CONTENT=
+<div id="dialogs">
+<H1><A NAME="dialog_main"></A>Locate dialog</H1>
+
+<P>The <b>Locate</b> dialog contains the following fields:</P>
+
+<div id="controls">
+<H2><A NAME="hid_locatedialog_name"></A>$STRNAME_TABCAPTION@A$, $STRSIZEDATE_TABCAPTION@A$ and $STRADVANCED_TABCAPTION@A$ tab</H2>
+<P>These tab are used to specify search criteria. <a href="tab_name.htm">$STRNAME_TABCAPTION@A$ tab</a> 
+is used to specify name of files, file extension and locations,  
+<a href="tab_sizedate.htm">$STRSIZEDATE_TABCAPTION@A$</a> can be used to specify the 
+minimum and maximum of the file size and dates, and <a href="tab_advanced.htm">$STRADVANCED_TABCAPTION@A$ tab</a>
+contains some special options for searches. If any field in tabs is changed, the label 
+of the tab is marked as '*'.
+</P>
+
+<H2><A NAME="ld_findnow"></A>$DLGMAIN_FINDNOW@M$</H2>
+<P>
+This button can be used to execute searches. If you hold Ctrl-key down, this button will execute 
+<a href="hid_file_findusingdatabases.htm">Find Using Databases</a> command. 
+</P>
+
+<H2><A NAME="ld_stop"></A>$DLGMAIN_STOP@M$</H2>
+<P>
+This button can be used to terminate searching.
+</P>
+
+<H2><A NAME="ld_newbutton"></A>$DLGMAIN_NEWSEARCH@M$</H2>
+<P>
+Use this button to clear fields and the results list. This button will also 
+hide the result list if "Result list is always shown" option in Advanced 
+setting is not chosen.
+</P>
+
+<H2><A NAME="ld_presets"></A>$DLGMAIN_PRESETS@M$</H2>
+<P>
+This button can be used to save and load presets, which can be used to 
+save search criteria. 
+</P>
+
+
+</div>
+
+
+</div>
+

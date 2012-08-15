@@ -1,0 +1,11 @@
+TITLE=Compute MD5 sums (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_computeMD5sums"></A>Compute MD5 sums (Special menu)</H1>
+
+<P>Computes MD5 sums for selected files. MD5 sums can be used to check whether two files are identical.</P>
+
+<P><b>Note:</b> to see MD5 sums, MD5 detail should be selected (e.g., see View/Select Details)</P>
+
+</div>
+

@@ -1,0 +1,33 @@
+TITLE=Settings actions (Keyboard Shortcuts)
+CONTENT=
+<div id="actions">
+<H1><A NAME="actions_help"></A>Settings actions (Keyboard Shortcuts)</H1>
+
+<P>
+The Settings category contains the following actions:
+
+<div id="actions">
+
+<p><b><a name="aset1"></a>Open $STRGENERALSETTINGS_TABCAPTION@M$ settings</b>:
+Opens the settings dialog and activates $STRGENERALSETTINGS_TABCAPTION@M$ settings page. </p>
+
+<p><b><a name="aset2"></a>Open $STRDATABASESETTINGS_TABCAPTION@M$ settings</b>:
+Opens the settings dialog and activates $STRDATABASESETTINGS_TABCAPTION@M$ settings page. </p>
+
+<p><b><a name="aset3"></a>Open $SRTAUTOUPDATESETTINGS_TABCAPTION@M$ settings</b>:
+Opens the settings dialog and activates $SRTAUTOUPDATESETTINGS_TABCAPTION@M$ settings page. </p>
+
+<p><b><a name="aset4"></a>Open $STRADVANCEDSETTINGS_TABCAPTION@M$ settings</b>:
+Opens the settings dialog and activates $STRADVANCEDSETTINGS_TABCAPTION@M$ settings page. </p>
+
+<p><b><a name="aset5"></a>Open $STRLANGUAGESETTINGS_TABCAPTION@M$ settings</b>:
+Opens the settings dialog and activates $STRLANGUAGESETTINGS_TABCAPTION@M$ settings page. </p>
+
+<p><b><a name="aset6"></a>Open $SRTSHORTCUTSSETTINGS_TABCAPTION@M$ settings</b>:
+Opens the settings dialog and activates $SRTSHORTCUTSSETTINGS_TABCAPTION@M$ settings page. </p>
+
+
+
+</div></P>
+
+</div>

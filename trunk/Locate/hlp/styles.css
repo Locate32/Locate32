@@ -1,0 +1,443 @@
+@charset "iso-8859-1";
+
+* html body
+{
+	text-align: center;	/* hack to center this under IE5 */
+}
+* html #pageWrapper
+{
+	text-align: left;	/* keep the content left-aligned */
+}
+
+.hide
+{
+	display: none;
+}
+
+body
+{
+	margin: 0;
+	/*padding: 0em;*/		/* remove this padding if you want the layout to
+				   stretch from edge to edge of the viewport. */
+	font-family: Arial, Helvetica, sans-serif;
+	/*font-size: 100.1%;*/	/* font sizing approach recommended by Dave 
+				   Silvester on the css-discuss list. "the 
+				   .1 is important." */
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	/* background-color: #F4F5F4; */ 
+	color: #000000;
+}
+
+
+#pageWrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F2F4F4; /* BACKGROUND COLOR */
+	color: #000000;
+	margin: 0;
+	width: auto;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 0px 0px 1px 0px;
+/*	min-width: 600px;*/
+}
+
+#masthead
+{
+	/*padding: 1px 2px 1px 2px;*/ /* MPu */
+	background-color: #5d7ba1;
+	color: #122a4a;
+
+}
+
+#masthead td
+{ 
+	color: #122a4a;
+}
+
+#titlebar
+{
+	
+	width: 100%;
+	height: 40px;
+	text-align: center;
+/*	height: 100%;*/
+/*	background-color: #5d7ba1;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px 1px 1px 1px;	/* handles the top of the layout's border 
+                                           and the bottom of the masthead section */
+}
+
+#titlebar tbody td
+{
+	font-family: Verdana;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#ColumnContainer
+{
+	color: #000000;
+}
+
+#content
+{
+	color: #000000;
+	margin: 5px;
+}
+
+#footer
+{
+	padding: 4px 0px 4px 0px;
+	/*height: 21px;*/
+	background-color: #e3e3e3;
+	color: #000000;
+	text-align: center;
+	border-style: solid;
+	border-color: #ab7377;
+	border-width: 3px 0 0 0;
+}
+
+
+#inside
+{
+/*       background-color: red;*/
+	color: #000000;
+}
+
+.inside
+{
+	/*padding: 0 0px;	*/	/* this padding is applied to every major box 
+				   within the layout for a uniform gutter 
+				   between borders 
+
+				   _NOTE_: a small glitch in IE seems to appear
+				   if this class has vertical padding applied
+				   to it. so in cases where you want to add 
+				   vert padding, use the parent element. margin
+				   values here don't work because .inside has
+				   a key role in border generation */
+}
+
+
+	
+	
+	
+h1
+{
+	font-family: Arial, sans-serif;
+	font-size: 150%;
+	margin-bottom: 14pt; 
+}
+h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 125%;
+	margin-bottom: 6pt;
+}
+h3
+{
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 2pt;
+}
+h4
+{
+	font-family: Arial, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom: 8pt;
+}
+h5
+{
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 6pt;
+}
+h6
+{
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+        font-weight: bold;
+        margin-bottom: 4pt;
+}
+h1,h2,h3,h4,h5,h6
+{  
+	color: #484848;
+}
+p
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+    /*margin-bottom: 10pt;*/
+	color: #101010;
+}
+div
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	color: #101010;
+}
+th, td
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	color: #101010;
+}
+ul	
+{
+	/*padding: 0 ; */
+	/*margin: 10pt ;*/
+	line-height : normal; 
+	
+}
+ul, ol, li, dd, dl, dt
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	color: #202020;
+}
+code, pr
+{
+	font-family: "Courier New", Courier, monospaced, serif;
+	font-size: 10pt;
+	color: #000000;
+}
+a
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+ 
+
+a:link { color: #336699; }
+a:visited { color: #003366; }
+a:active { color: #993333; }
+a:hover { color: #660000; }
+a.li:link { color: #336699; }
+a.li:visited { color: #003366; }
+a.li:active { color: #993333; }
+a.li:hover { color: #660000; }
+
+
+#menus table
+{
+	margin: 10px 0 10px 0;
+}
+
+
+#controls h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	margin: 16pt 2pt 6pt 2pt;
+}	
+
+#controls p
+{
+	margin: 6pt 6pt 6pt 12pt;
+}
+
+#general_settings_level1 p 
+{
+	margin-left: 8pt;
+	margin-top: 6pt;
+	margin-bottom: 10pt;
+}
+
+#general_settings_level1 h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 105%;
+	margin-left: 8pt;
+	margin-bottom: 2pt;
+}
+
+#general_settings_level2 p 
+{
+	margin-left: 14pt;
+	margin-top: 3pt;
+	margin-bottom: 7pt;
+}
+
+#general_settings_level2 h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 105%;
+	margin-left: 14pt;
+	margin-bottom: 2pt;
+}
+
+
+#advanced_settings_level1 p 
+{
+	margin-left: 8pt; 
+	margin-top: 6pt;
+	margin-bottom: 10pt;
+}
+
+#advanced_settings_level1 h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 105%;
+	margin-left: 8pt;
+	margin-bottom: 2pt;
+}
+
+#advanced_settings_level2 p 
+{
+	margin-left: 14pt;
+	margin-top: 3pt;
+	margin-bottom: 7pt;
+}
+
+#advanced_settings_level2 h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 105%;
+	margin-left: 14pt;
+	margin-bottom: 2pt;
+}
+
+#advanced_settings_level3 p 
+{
+	margin-left: 26pt;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	
+}
+
+
+#settings_databases_fields p 
+{
+	margin-left: 8pt;
+	margin-bottom: 2pt;
+	
+}
+
+#keyboard_settings_level1 p 
+{
+	margin-left: 8pt;
+	margin-top: 6pt;
+	margin-bottom: 10pt;
+}
+
+#keyboard_settings_level1 h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 105%;
+	margin-left: 8pt;
+	margin-bottom: 2pt;
+}
+
+table#menutable {
+    width: 95%;
+	/*margin: 12px 6px 16px 8px;*/
+}
+
+table#menutable td {
+    /*border: solid #6666BB 2px;
+	padding: 4px;*/
+}
+
+
+/* Date and time format tables */
+table#formattable {
+    background-color:#FFFFFF;
+	border-spacing: 0px;
+    border-collapse: collapse;
+	width: 95%;
+	margin: 12px 6px 16px 8px;
+}
+
+table#separatortable {
+    background-color:#FFFFFF;
+	border-spacing: 0px;
+    border-collapse: collapse;
+	width: 500px;
+	margin: 12px 6px 16px 8px;
+	text-align: left;
+}
+
+table#formattable td {
+    border: solid #6666BB 2px;
+	padding: 4px;
+}
+
+table#actionstable {
+    background-color:#FFFFFF;
+	border-spacing: 0px;
+    border-collapse: collapse;
+	width: 95%;
+	margin: 12px 6px 16px 8px;
+}
+
+.action_name {
+    width: 150px;
+}
+
+.action_description {
+    /*width: 60%;*/
+}
+table#detailstable {
+    background-color:#FFFFFF;
+	border-spacing: 0px;
+    border-collapse: collapse;
+	width: 95%;
+	margin: 12px 6px 16px 8px;
+}
+
+.detail_name {
+    width: 150px;
+}
+
+.detail_description {
+    /*width: 60%;*/
+}
+
+    
+table#variablestable {
+    background-color:#FFFFFF;
+	border-spacing: 0px;
+    border-collapse: collapse;
+	width: 90%;
+	margin: 12px 16px 16px 8px;
+}
+
+.variable_name {
+    width: 30px;
+}
+
+.variable_description {
+    /*width: 60%;*/
+}
+
+.toprow {
+    background-color: #6666DD;
+	color: #FFFFFF;
+}
+
+.toprow td {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 105%;
+}
+
+
+
+#actions p 
+{
+	margin-left: 8pt;
+	margin-top: 6pt;
+	margin-bottom: 10pt;
+}

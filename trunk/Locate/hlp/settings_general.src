@@ -1,0 +1,140 @@
+TITLE=General tab / Settings dialog
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_general"></A>General Settings</H1>
+
+<p>The General page in the settings dialog contains some options 
+which can be used to change behaviour of Locate32 dialog.
+The General tab contains the following options:
+</p>
+
+
+<h2>Mouse selection group</h2>
+<p>This group contains options related to the result list and mouse. It contains options 
+to specify how items in the result list are selected. You can use 
+<A HREF="hid_view_selectdetails.htm">$MENUMAIN_VIEW_SELECTDETAILS@M$</A> command under View menu to 
+specify how items are opened.</p>
+
+<div id="general_settings_level1">
+<p>
+<b><A NAME="sg_sysset"></A>Use current system folder settings</b>:
+If this option is enabled, Locate32 uses same settings as Windows Explorer to
+decide how items in the result list are selected.
+</p>
+
+<p>
+<b><A NAME="sg_point"></A>Point to select</b>:
+If this option is enabled, items in the result list can be selected by pointing them.
+Several items can be selected by using Ctrl ans Shift keys. If this option is enabled, 
+you can specify that when the file names are underlined by using the following options:
+</p>
+
+<div id="general_settings_level2">
+<p>
+<b><A NAME="sg_neverunderline"></A>Never underline file names</b>:
+The files in the results list are never underlined. 
+</p>
+<p>
+<b><A NAME="sg_hover"></A>Underline file names when I point at them</b>:
+The files in the results list are underlined when you point them with the cursor.
+</p>
+<p>
+<b><A NAME="sg_alwaysunderline"></A>Always underline file names</b>:
+The files in the results list are always underlined.
+</p>
+</div>
+
+<p>
+<b><A NAME="sg_click"></A>Click file to select</b>:
+If this option is enabled, items in the result list can be selected by clicking them.
+</p>
+</div>
+
+
+<h2>Locate dialog group</h2>
+<p>This group contains options related opening and closing Locate32 dialog. </p>
+
+<div id="general_settings_level1">
+<p>
+<b><A NAME="sg_min2st"></A>Minimize to system tray</b>:
+If this option is enabled, Locate32 dialog is not shown in the task bar when the dialog is minimized. 
+</p>
+
+<p>
+<b><A NAME="sg_close2min"></A>Close button minimizes the main dialog</b>:
+If this option is enabled, the main dialog of Locate32 is minimized when Close button (X) is clicked on 
+the window's title bar.</b>.
+</p>
+
+<p>
+<b><A NAME="sg_savestates"></A>Save content of fields and restore when dialog is opened again</b>:
+If this option is enabled and Locate dialog closed, the content of edit fields, 
+selections in combo boxes and check states in Locate32 dialog are restored when 
+the dialog is opened next time. 
+</p>
+
+<p>
+<b><A NAME="sg_close2st"></A>Leave Locate32 running on background when the main dialog is closed</b>:
+If this option is enabled, the application is not completely exited when the main dialog is closed.
+Instead, the locate32 process leave running on background. You can use the system tray icon to open 
+Locate dialog or for other features. The similar behaviour takes place when Locate32 is 
+started with '-S' argument, for example, using shortcut in Startup menu (this option is 
+disabled if '-S' argument is given). 
+</p>
+</div>
+
+
+<h2>Defaults group</h2>
+<p>This group contains options related default values for fields in Locate32 dialog. 
+<b>These options do not have immediate effect. The options in the Advanced tab (in the main dialog)
+will ultimately define the parameters for searches, these default values are used
+just when you open the main dialog or press "New Search" button.</b></p>
+
+<div id="general_settings_level1">
+<p>
+<b><A NAME="sg_sorting"></A>Sorting</b>:
+This option specifies how items in the results list are sorted by default. For example, 
+if you choose "Size", files are sorted by file size when initiate a new search. The default order 
+can be chosen using "Ascending" and "Descending" check boxes.
+</p>
+
+<p>
+<b><A NAME="sg_matchwn"></A>Match whole name only</b>:
+If this option is enabled, the <a href="tab_advanced.htm#ta_matchwholename">Match whole name only</a> 
+check box in the Advanced tab of the main dialog is enabled by default. 
+</p>
+
+<p>
+<b><A NAME="sg_check"></A>Check</b>:
+This option specifies default selection for <a href="tab_advanced.htm#ta_check">Check</a> field in the Advanced tab of 
+the main dialog. 
+</p>
+
+<p>
+<b><A NAME="sg_repspaces"></A>Replace spaces with '*'</b>:
+If this option is enabled, <a href="tab_advanced.htm#ta_replacespaces">Replace spaces with asterisks</a> 
+check box in the Advanced tab of the main dialog is enabled by default. 
+</p>
+
+<p>
+<b><A NAME="sg_matchcase"></A>Match case</b>:
+This option specifies the default state for <a href="tab_advanced.htm#ta_usewholepath">Match case</a>
+ check box in the Advanced tab in the main dialog. 
+</p>
+
+<p>
+<b><A NAME="sg_wholepath"></A>Use whole path</b>:
+If this option is enabled, <a href="tab_advanced.htm#ta_usewholepath">Use entire path</a>
+ check box in the Advanced tab of the main dialog is enabled by default. 
+</p>
+
+<p>
+<b><A NAME="sg_datamatchcase"></A>Match case (for "File containing text")</b>:
+This option specifies the default state for <a href="tab_advanced.htm#ta_usewholepath">Match case</a>
+ check box on right of <a href="tab_advanced.htm#ta_fileconttext">File containing text</a> check box (in the Advanced tab in the main dialog). 
+</p>
+
+
+</div>
+
+</div>

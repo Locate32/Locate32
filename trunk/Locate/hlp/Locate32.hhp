@@ -1,0 +1,347 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=Locate32.chm
+Contents file=Locate32.hhc
+Index file=Locate32.hhk
+Default topic=main_index.htm
+Display compile progress=No
+Full-text search=Yes
+Language=0x0409 English (United States)
+
+
+[FILES]
+hid_edit_copy.htm
+hid_edit_cut.htm
+hid_edit_paste.htm
+hid_edit_invertselection.htm
+hid_edit_selectall.htm
+hid_file_opencontainingfolder.htm
+hid_file_removefromlist.htm
+hid_file_open.htm
+hid_file_sendto.htm
+hid_file_cut.htm
+hid_file_copy.htm
+hid_file_createshortcut.htm
+hid_file_delete.htm
+hid_file_rename.htm
+hid_file_properties.htm
+hid_file_saveresults.htm
+hid_file_findusingdatabases.htm
+hid_file_updatedatabases.htm
+hid_file_updateselected.htm
+hid_file_updatedatabase.htm
+hid_file_stopupdating.htm
+hid_file_databaseinfo.htm
+hid_file_close.htm
+hid_file_exit.htm
+hid_view_extralargeicons.htm
+hid_view_largeicons.htm
+hid_view_mediumicons.htm
+hid_view_smallicons.htm
+hid_view_list.htm
+hid_view_details.htm
+hid_view_arrangeicons.htm
+hid_view_lineupicons.htm
+hid_view_selectdetails.htm
+hid_view_refresh.htm
+hid_view_arrange_byname.htm
+hid_view_arrange_byfolder.htm
+hid_view_arrange_bytype.htm
+hid_view_arrange_bysize.htm
+hid_view_arrange_bydate.htm
+hid_view_arrange_byextension.htm
+hid_view_arrange_autoarrange.htm
+hid_view_arrange_aligntogrid.htm
+hid_tools_deleteprivatedata.htm
+hid_tools_settings.htm
+hid_tools_settingstool.htm
+hid_help_about.htm
+hid_help_index.htm
+hid_systemtray_openlocate.htm
+hid_special_copypathtoclipboard.htm
+hid_special_copyshortpathtoclipboard.htm
+hid_special_copydatatoclipboard.htm
+hid_special_changefilename.htm
+hid_special_changecaseforfilename.htm
+hid_special_showtotalsize.htm
+hid_special_updatefileinformation.htm
+hid_special_computeMD5sums.htm
+hid_special_computeMD5sumsforequalsizefiles.htm
+hid_special_copyMD5sumstoclipboard.htm
+hid_special_removedeletedfiles.htm
+hid_special_updatedatabasesforselectedfiles.htm
+
+dialog_locate.htm
+dialog_selectdetails.htm
+
+tab_name.htm
+tab_sizedate.htm
+tab_advanced.htm
+
+menu_file.htm
+menu_edit.htm
+menu_view.htm
+menu_tools.htm
+menu_help.htm
+menu_special.htm
+menu_contextmenu.htm
+menu_systemtray.htm
+
+
+issue_searchterms.htm
+issue_commandlinearguments.htm
+issue_datasearch.htm
+howto_externaldrives.htm
+howto_defaultsearchapp.htm
+
+settings_general.htm
+settings_advanced.htm
+settings_languages.htm
+settings_databases.htm
+settings_autoupdate.htm
+settings_shortcuts.htm
+settings_databasedlg.htm
+settings_databaseadv.htm
+settings_autoupdatedlg.htm
+settings_shortcutsadvanced.htm
+
+actions_changefields.htm
+actions_help.htm
+actions_misc.htm
+actions_resultslist.htm
+actions_showhide.htm
+
+main_index.htm
+
+images/sk_addaction.gif
+images/sk_next.gif
+images/sk_prev.gif	
+images/sk_removeaction.gif
+images/sk_swapwprev.gif
+images/sk_swapwnext.gif
+
+[ALIAS]
+HIDR_MAINFRAME = main_index.htm
+
+
+
+main_index							= main_index.htm
+hid_edit_copy						= hid_edit_copy.htm
+hid_edit_cut						= hid_edit_cut.htm
+hid_edit_selectall					= hid_edit_selectall.htm
+hid_edit_invertselection			= hid_edit_invertselection.htm
+hid_file_opencontainingfolder       = hid_file_opencontainingfolder.htm
+hid_file_removefromlist             = hid_file_removefromlist.htm
+hid_file_open                       = hid_file_open.htm
+hid_file_sendto						= hid_file_sendto.htm
+hid_file_cut						= hid_file_cut.htm
+hid_file_copy						= hid_file_copy.htm
+hid_file_createshortcut				= hid_file_createshortcut.htm
+hid_file_delete						= hid_file_delete.htm
+hid_file_rename						= hid_file_rename.htm
+hid_file_properties					= hid_file_properties.htm
+hid_file_saveresults				= hid_file_saveresults.htm
+hid_file_findusingdatabases			= hid_file_findusingdatabases.htm
+hid_file_updatedatabases			= hid_file_updatedatabases.htm
+hid_file_updateselected				= hid_file_updateselected.htm
+hid_file_updatedatabase				= hid_file_updatedatabase.htm
+hid_file_stopupdating				= hid_file_stopupdating.htm
+hid_file_databaseinfo				= hid_file_databaseinfo.htm
+hid_file_close						= hid_file_close.htm
+hid_file_exit						= hid_file_exit.htm
+hid_view_largeicons					= hid_view_largeicons.htm
+hid_view_mediumicons				= hid_view_mediumicons.htm
+hid_view_extralargeicons			= hid_view_extralargeicons.htm
+hid_view_smallicons					= hid_view_smallicons.htm
+hid_view_list						= hid_view_list.htm
+hid_view_details					= hid_view_details.htm
+hid_view_arrangeicons				= hid_view_arrangeicons.htm
+hid_view_lineupicons				= hid_view_lineupicons.htm
+hid_view_selectdetails				= hid_view_selectdetails.htm
+hid_view_refresh					= hid_view_refresh.htm
+hid_view_arrange_byname				= hid_view_arrange_byname
+hid_view_arrange_byfolder			= hid_view_arrange_byfolder.htm
+hid_view_arrange_bytype				= hid_view_arrange_bytype.htm
+hid_view_arrange_bysize				= hid_view_arrange_bysize.htm
+hid_view_arrange_bydate				= hid_view_arrange_bydate.htm
+hid_view_arrange_byextension		= hid_view_arrange_byextension.htm
+hid_view_arrange_autoarrange		= hid_view_arrange_autoarrange.htm
+hid_view_arrange_aligntogrid		= hid_view_arrange_aligntogrid.htm
+hid_tools_settings					= hid_tools_settings.htm
+hid_tools_settingstool				= hid_tools_settingstool.htm
+hid_tools_deleteprivatedata			= hid_tools_deleteprivatedata.htm
+hid_help_about						= hid_help_about.htm
+hid_help_index						= hid_help_index.htm
+hid_systemtray_openlocate			= hid_systemtray_openlocate.htm
+hid_special_copypathtoclipboard		= hid_special_copypathtoclipboard.htm
+hid_special_copyshortpathtoclipboard= hid_special_copyshortpathtoclipboard.htm
+hid_special_copydatatoclipboard		= hid_special_copydatatoclipboard.htm
+hid_special_changefilename			= hid_special_changefilename.htm
+hid_special_changecaseforfilename	= hid_special_changecaseforfilename.htm
+hid_special_showtotalsize			= hid_special_showtotalsize.htm
+hid_special_updatefileinformation	= hid_special_updatefileinformation.htm
+hid_special_computeMD5sums			= hid_special_computeMD5sums.htm
+hid_special_computeMD5sumsforequalsizefiles = hid_special_computeMD5sumsforequalsizefiles.htm
+hid_special_copyMD5sumstoclipboard			= hid_special_copyMD5sumstoclipboard.htm
+hid_special_removedeletedfiles		= hid_special_removedeletedfiles.htm
+hid_special_updatedatabasesforselectedfiles = hid_special_updatedatabasesforselectedfiles.htm
+
+dialog_locate						= dialog_locate.htm
+dialog_selectdetails				= dialog_selectdetails.htm
+tab_name							= tab_name.htm
+tab_sizedate						= tab_sizedate.htm
+tab_advanced						= tab_advanced.htm
+
+menu_file							= menu_file.htm
+menu_edit							= menu_edit.htm
+menu_view							= menu_view.htm
+menu_options						= menu_options.htm
+menu_help							= menu_help.htm
+menu_contextmenu					= menu_contextmenu.htm
+menu_systemtray						= menu_systemtray.htm
+
+issue_searchterms					= issue_searchterms.htm
+issue_commandlinearguments			= issue_commandlinearguments.htm
+issue_datasearch					= issue_datasearch.htm
+howto_externaldrives				= howto_externaldrives.htm
+howto_defaultsearchapp				= howto_defaultsearchapp.htm
+
+settings_general					= settings_general.htm
+settings_advanced					= settings_advanced.htm
+settings_languages					= settings_languages.htm
+settings_databases					= settings_databases.htm
+settings_autoupdate					= settings_autoupdate.htm
+settings_shortcuts					= settings_shortcuts.htm
+settings_databasedlg				= settings_databasedlg.htm
+settings_databaseadv				= settings_databaseadv.htm
+settings_autoupdatedlg				= settings_autoupdatedlg.htm
+settings_shortcutsadvanced			= settings_shortcutsadvanced.htm
+
+actions_changefields				= actions_changefields.htm
+actions_help						= actions_help.htm
+actions_Settings					= actions_settings.htm
+actions_misc						= actions_misc.htm
+actions_resultslist					= actions_resultslist.htm
+actions_showhide					= actions_showhide.htm
+
+IDC_TAB								= dialog_locate.htm
+IDC_FRAME							= dialog_locate.htm
+IDC_FILELIST						= dialog_locate.htm
+IDC_STATUS							= dialog_locate.htm
+
+
+
+IDM_CUT								= hid_edit_cut.htm
+IDM_COPY							= hid_edit_copy.htm
+IDM_PASTE							= hid_edit_paste.htm
+IDM_EDIT_SELECTALL					= hid_edit_selectall.htm
+IDM_EDIT_INVERTSELECTION			= hid_edit_invertselection.htm
+IDM_OPENCONTAININGFOLDER			= hid_file_opencontainingfolder.htm
+IDM_REMOVEFROMTHISLIST		        = hid_file_removefromlist.htm
+IDM_DEFOPEN					        = hid_file_open.htm
+IDM_CREATESHORTCUT					= hid_file_createshortcut.htm
+IDM_DELETE							= hid_file_delete.htm
+IDM_RENAME							= hid_file_rename.htm
+IDM_PROPERTIES						= hid_file_properties.htm
+IDM_SAVERESULT						= hid_file_saveresults.htm
+IDM_FINDUSINGDBS					= hid_file_findusingdatabases.htm
+IDM_GLOBALUPDATEDB					= hid_file_updatedatabases.htm
+IDM_UPDATEDATABASES					= hid_file_updateselected.htm
+IDM_STOPUPDATING					= hid_file_stopupdating.htm
+IDM_DATABASEINFO					= hid_file_databaseinfo.htm
+IDM_CLOSE							= hid_file_close.htm
+IDM_EXIT							= hid_file_exit.htm
+IDM_EXTRALARGEICONS					= hid_view_extralargeicons.htm
+IDM_LARGEICONS						= hid_view_largeicons.htm
+IDM_MEDIUMICONS						= hid_view_mediumicons.htm
+IDM_SMALLICONS						= hid_view_smallicons.htm
+IDM_LIST							= hid_view_list.htm
+IDM_DETAILS							= hid_view_details.htm
+IDM_LINEUPICONS						= hid_view_lineupicons.htm
+IDM_SELECTDETAILS					= hid_view_selectdetails.htm
+IDM_REFRESH							= hid_view_refresh.htm
+IDM_ARRANGENAME						= hid_view_arrange_byname.htm
+IDM_ARRANGEFOLDER					= hid_view_arrange_byfolder.htm
+IDM_ARRANGETYPE						= hid_view_arrange_bytype.htm
+IDM_ARRANGESIZE						= hid_view_arrange_bysize.htm
+IDM_ARRANGEDATE						= hid_view_arrange_bydate.htm
+IDM_ARRANGEEXTENSION				= hid_view_arrange_byextension.htm
+IDM_AUTOARRANGE						= hid_view_arrange_autoarrange.htm
+IDM_ALIGNTOGRID						= hid_view_arrange_aligntogrid.htm
+IDM_SETTINGS						= hid_tools_settings.htm
+IDM_SETTOOL							= hid_tools_settingstool.htm
+IDM_DELETEPRIVATEDATA				= hid_tools_deleteprivatedata.htm
+IDM_ABOUT							= hid_help_about.htm
+IDM_HELPTOPICS						= hid_help_index.htm
+IDM_OPENLOCATE						= hid_systemtray_openlocate.htm
+IDM_COPYPATHTOCB					= hid_special_copypathtoclipboard.htm
+IDM_COPYSHORTPATHTOCB				= hid_special_copyshortpathtoclipboard.htm
+IDM_COPYDATATOCB					= hid_special_copydatatoclipboard.htm
+IDM_CHANGEFILENAME					= hid_special_changefilename.htm
+IDM_CHANGECASE						= hid_special_changecaseforfilename.htm
+IDM_SHOWFILEINFORMATION				= hid_special_showtotalsize.htm
+IDM_FORCEUPDATE						= hid_special_updatefileinformation.htm
+IDM_COMPUTEMD5SUM					= hid_special_computeMD5sums.htm
+IDM_MD5SUMSFORSAMESIZEFILES			= hid_special_computeMD5sumsforequalsizefiles.htm
+IDM_COPYMD5SUMTOCLIPBOARD			= hid_special_copyMD5sumstoclipboard.htm
+IDM_REMOVEDELETEDFILES				= hid_special_removedeletedfiles.htm
+IDM_UPDATEDATABASESOFSELECTEDFILES  = hid_special_updatedatabasesforselectedfiles.htm
+
+HELP_SETTINGS_GENERAL				= settings_general.htm
+HELP_SETTINGS_ADVANCED				= settings_advanced.htm
+HELP_SETTINGS_LANGUAGES				= settings_languages.htm
+HELP_SETTINGS_DATABASES				= settings_databases.htm
+HELP_SETTINGS_AUTOUPDATE			= settings_autoupdate.htm
+HELP_SETTINGS_SHORTCUTS				= settings_shortcuts.htm
+HELP_SETTINGS_DATABASEDLG			= settings_databasedlg.htm
+HELP_SETTINGS_AUTOUPDATEDLG			= settings_autoupdatedlg.htm
+HELP_SETTINGS_SHORTCUTADVANCED		= settings_shortcutsadvanced.htm
+HELP_SETTINGS_DATABASEADVANCED		= settings_databaseadv.htm
+
+HELP_ISSUE_DATASEARCH				= issue_datasearch.htm
+
+HID_UPDATEMENU_ITEM0				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM1				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM2				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM3				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM4				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM5				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM6				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM7				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM8				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM9				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM10				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM11				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM12				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM13				= hid_file_updatedatabase.htm
+HID_UPDATEMENU_ITEM14				= hid_file_updatedatabase.htm
+
+
+HID_SENDTOMENU_ITEM0				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM1				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM2				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM3				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM4				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM5				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM6				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM7				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM8				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM9				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM10				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM11				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM12				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM13				= hid_file_sendto.htm
+HID_SENDTOMENU_ITEM14				= hid_file_sendto.htm
+
+
+
+[MAP]
+#include "HTMLDefines.h"
+
+
+
+[TEXT POPUPS]
+HTMLDefines.h
+
+[INFOTYPES]

@@ -1,0 +1,398 @@
+[Project]
+FileName=C:\My Documents\Programming\C\Locate\Locate32\Locate32.dev
+Name=Locate32
+Ver=1
+IsCpp=1
+Type=0
+Compiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -DLANG_EN 
+CppCompiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -DLANG_EN 
+Includes=
+Linker=
+Libs=
+UnitCount=55
+Folders=Sources,"Header Files","Resource Files",Documents
+[Unit1]
+FileName=./AboutDlg.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit2]
+FileName=./Background.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit3]
+FileName=./FileObject.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit4]
+FileName=./LocateApp.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit5]
+FileName=./LocatedItem.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit6]
+FileName=./LocateDlg.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit7]
+FileName=./ResultsDialogs.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit8]
+FileName=./SettingsDlg.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit9]
+FileName=./Std.cpp
+Folder=Sources
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit10]
+FileName=./AboutDlg.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit11]
+FileName=./Background.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit12]
+FileName=./Data.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit13]
+FileName=./FileObject.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit14]
+FileName=./Locate32.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit15]
+FileName=./LocateApp.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit16]
+FileName=./LocatedItem.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit17]
+FileName=./LocateDlg.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit18]
+FileName=./ResultsDialogs.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit19]
+FileName=./SettingsDlg.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit20]
+FileName=./commonres/aboutbanner.bmp
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit21]
+FileName=./commonres/bitmap1.bmp
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit22]
+FileName=./commonres/circle.bmp
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit23]
+FileName=./commonres/defaultt.bmp
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit24]
+FileName=./commonres/deletedf.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit25]
+FileName=./englishrc/englishrc.rc
+Folder="Resource Files"
+Compile=1
+CompileCpp=1
+Link=0
+Priority=1000
+[Unit26]
+FileName=./commonres/file.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit27]
+FileName=./commonres/files.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit28]
+FileName=./commonres/ico00001.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit29]
+FileName=./commonres/icon1.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit30]
+FileName=./commonres/icon2.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit31]
+FileName=./commonres/icon3.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit32]
+FileName=./commonres/icon4.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit33]
+FileName=./commonres/icon6.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit34]
+FileName=./commonres/idb_lani.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit35]
+FileName=./commonres/lens.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit36]
+FileName=./commonres/no.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit37]
+FileName=./englishrc/resource.h
+Folder="Resource Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit38]
+FileName=./commonres/uanim10.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit39]
+FileName=./commonres/uanim11.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit40]
+FileName=./commonres/uanim12.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit41]
+FileName=./commonres/uanim13.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit42]
+FileName=./commonres/uanim2.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit43]
+FileName=./commonres/uanim3.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit44]
+FileName=./commonres/uanim4.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit45]
+FileName=./commonres/uanim5.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit46]
+FileName=./commonres/uanim6.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit47]
+FileName=./commonres/uanim7.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit48]
+FileName=./commonres/uanim8.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit49]
+FileName=./commonres/uanim9.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit50]
+FileName=./commonres/updtdb32.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit51]
+FileName=./commonres/yes.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit52]
+FileName=./HFCDebug.log
+Folder=Documents
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit53]
+FileName=./Korjaukset.txt
+Folder=Documents
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit54]
+FileName=./commonres/helptext.txt
+Folder=
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit55]
+FileName=./commonres/toolbarb.bmp
+Folder=
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000

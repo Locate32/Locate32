@@ -1,0 +1,9 @@
+TITLE=Show total size of selected files (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_showtotalsize"></A>Show total size of selected files (Special menu)</H1>
+
+<P>Use this command to see total size of selected files. 
+This command will count the number of selected files and directories.</P>
+
+</div>

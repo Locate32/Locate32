@@ -1,0 +1,9 @@
+TITLE=Change case for file name (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_changecaseforfilename"></A>Change case for file name (Special menu)</H1>
+
+
+<P>Use this command to change the case of file name. For example, you can make name uppercase, lowercase, etc...</P>
+
+</div>

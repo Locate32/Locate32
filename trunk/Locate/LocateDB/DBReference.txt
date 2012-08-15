@@ -1,0 +1,115 @@
+Locate DB fileformat reference for version 20b (additions 24.2.2008)
+Copyright (C) 2001-2010 Janne Huttunen
+
+
+1. The content of database is following:
+
+Header
+Second root
+First root directory (e.g. C: drive)
+First root directory 
+...
+Last root directory 
+null (0 as DWORD)
+
+
+
+
+
+2. Format for header:
+
+size 	      description    
+8xBYTE        text "LOCATEDB" as ANSI characters
+2xBYTE 	      version, "20" as ANSI characters
+BYTE          compination of the following: 01h = long file names, 0h = OEM charset, 10h = ANSI charset, 
+              20h = Unicode charset
+DWORD         how many bytes should ignored to skip the rest of header (i.e., the compined 
+              size of the next seven fields, in bytes)
+variable      a null-terminated string specifying creator
+variable      a null-terminated string specifying description
+variable      a null-terminated string for extra information (see the end of file)
+variable      an another null-terminated string for extra information
+DWORD         creation time (FILETIME structure)
+DWORD         the number of files
+DWORD         the number of directories
+
+
+
+
+
+3. Format for root directories:
+
+DWORD         data length (actual length = this value + 4)
+BYTE          type: 0 = unknown, 10h = fixed, 20h = removable (e.g., floppy), 30h = CD-ROM, 40 = Remote (network),
+              50h = Ramdisk, F0h = Directory
+variable      a null-terminated string for path
+variable      a null-terminated string for volume name
+DWORD         volume serial
+variable      a null-terminated string for file system 
+DWORD         the number of files
+DWORD         the number of directories
+variable      the first file or directory in root
+variable      the second file or directory in root
+...
+variable      the last file or directory in root
+DWORD         null (0)
+
+
+3.1 Format for directory
+
+BYTE          type and attribute, the compination of the following: 10h = file
+              80h = directory, hidden = 01h, read only = 02h, archive = 04h, system = 08h,
+              10h = symlink, 20h = junction/mount point
+DWORD         data length (actual length = this value + 1)
+BYTE          the length of directory name          
+varible       directory name as a null-terminated string
+DWORD         modification time (FILETIME)
+XWORD         creation date (WORD if ANSI charset, DWORD if Unicode)
+XWORD         last accessed date (WORD if ANSI charset, DWORD if Unicode)
+variable      the first file or subdirectory in directory
+variable      the second file or subdirectory in directory
+...
+variable      the last file or subdirectory in directory
+BYTE          null (0)
+
+3.2 Format for file
+
+BYTE          type and attribute, the compination of the following: 10h = file, 
+              (0h no files, 80h = directory), hidden = 01h, read only = 02h, archive = 04h, 
+              system = 08h, symlink = 10h
+BYTE          the length of file name    
+BYTE          index to extension      
+varible       file name as a null-terminated string
+DWORD         file size (lo)
+BYTE/WORD     file size (hi) (BYTE if ANSI charset, WORD if Unicode)
+DWORD         modification time (FILETIME)
+XWORD         creation date (WORD if ANSI charset, DWORD if Unicode)
+XWORD         last accessed date (WORD if ANSI charset, DWORD if Unicode)
+
+
+
+
+
+
+
+4. Notes
+
+- All strings are null-terminated ANSI, Unicode or OEM (old DOS versions) strings depending on the 
+  third field in the header (exceptions are mentioned above). 
+- If creation/modification/last access date is older than 1.1.1980, WORD value is -2 (or arbitrary in versions before 3.1.10.8220)
+- Briefly, to read file do following
+1. Read header 
+2. While next byte is not zero read root struct as follows:
+	1.  Read fields (e.g. type, path, ...) 
+	2a. If byte (after number of directories field) combined with 0xF0 is 0x10 
+	    (i.e. (byte&0xF0)==0x10), following data is file struct. Read name, size and date fields.
+	2b. If byte combined with 0xF0 is 0x80 (i.e. (byte&0xF0)==0x80), following data 
+	    is directory struct. Read it as follows:
+		- Read directory header (name, dates)
+		- Read subdirectories (e.g. recursively) and files until zero byte is obtained
+	3.  If byte combined with 0xF0 is 0x00 (i.e. (byte&0xF0)==0x00) read next root struct,
+		otherwise read next file or directory structure (steps 2a or 2b). 
+	
+
+
+

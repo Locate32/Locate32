@@ -1,0 +1,12 @@
+TITLE=Settings Backup Tool (Tools menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_tools_settings"></A>Settings Backup Tool (Tools menu)</H1>
+
+<P>Opens Settings Backup Tool which can be used to store current settings to a file,
+restore settings from a file and clear current settings.</P>
+
+<p><b>Note:</b> it is recommended that you completely close Locate before you restore 
+your settings by using this tool.</p>
+</div>
+

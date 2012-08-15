@@ -1,0 +1,24 @@
+
+usage:
+updtdb32 [-D dbname|-d dbfile] [-LPATH | -L1] [-EPATH] [-Tc creator] [-Td description] [-n] [-q]
+ 
+parameters:
+    -d file     uses database from file 'file'
+    -D name     uses database named 'name' (the properties of
+                database cannot be changed)
+    -Lpath      check directory path
+    -L1         check all local hard drives
+    -Epath      Exclude directory from updating
+    -epattern   Exclude files from updating
+    -I          incrementally update database
+    -cU         use unicode character set
+    -cA         use ANSI character set
+    -Tc         set creator
+    -Td         set description
+    -n          following databases uses another thread
+    -q          quiet mode
+    -h          help (this screen)
+    -X:CUSTOM   use different settings branch (see locate.ini file)
+    -v          show version string 
+
+EOF

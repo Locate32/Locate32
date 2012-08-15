@@ -1,0 +1,32 @@
+TITLE=Help menu commands
+CONTENT=
+<div id="menus">
+<H1><A NAME="menu_help"></A>Help menu commands</H1>
+
+
+<P>The <b> Help</b> menu offers the following commands, which provide you
+assistance with this application:
+
+
+
+<TABLE id="menutable" cols=2>
+<TBODY>
+
+<TR VALIGN="top">
+<TD width=16%><A HREF="hid_help_index.htm">Help Topics</A></TD>
+<TD width=84%>Offers you an index to topics on which you can get help.</TD>
+</TR>
+
+
+<TR VALIGN="top">
+<TD width=16%><A HREF="hid_help_about.htm">About</A></TD>
+<TD width=84%>Displays the version number of this application.</TD>
+</TR>
+
+</TBODY>
+</TABLE>
+</P>
+
+</div>
+
+

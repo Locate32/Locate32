@@ -1,0 +1,25 @@
+TITLE=Language tab / Settings dialog
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_languages"></A>Language Settings</H1>
+
+<p>The language page can be used to change language of
+the user interface. To change the language, select the desirable language from the list. 
+If you want to use same language also with console applications,
+enable also <b>Use same language locate.exe and updtdb32.exe</b> option.
+Note that Locate32 needs to be restarted before language is changed (ensure that 
+the system tray icon is also disappeared).
+</p>
+
+<p>Tranlations for Locate can be found 
+from <a href="http://locate32.net/content/section/5/39/">
+here</a>. Language files can be installed by copying lan_xx.dll 
+file to the Locate32 installation directory. </p>
+
+<p>
+<b>Note:</b> the version of the language file should correspond 
+to the version of Locate32. Newer translation file should work
+with older versions of Locate32 without any problems (there is some exceptions). 
+Instead, old translation files do not generally work, at least there could be
+some options and other features may be items. </p>
+</div>

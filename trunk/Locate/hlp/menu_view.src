@@ -1,0 +1,67 @@
+TITLE=View menu commands
+CONTENT=
+<div id="menus">
+<H1><A NAME="menu_view"></A>View menu commands</H1>
+
+<P>The <b> View</b> menu offers the following commands:
+
+<TABLE id="menutable" cols=2>
+<TBODY>
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_extralargeicons.htm">Extra Large Icons</A></TD>
+<TD width=82%>Shows results by using extra large icons. Images in this
+mode are shown as thumbnails.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_largeicons.htm">Large Icons</A></TD>
+<TD width=82%>Shows results by using large icons. Images in this mode 
+are shown as thumbnails.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_mediumicons.htm">Medium Icons</A></TD>
+<TD width=82%>Shows results by using medium size icons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_smallicons.htm">Small Icons</A></TD>
+<TD width=82%>Shows results by using small icons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_list.htm">List</A></TD>
+<TD width=82%>Shows results as a list of files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_details.htm">Details</A></TD>
+<TD width=82%>Shows detailed information about results.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_arrangeicons.htm">Arrange Icons</A></TD>
+<TD width=82%>This menu can be used to sort and arrange results.</TD>
+</TR>
+
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_lineupicons.htm">Line Up Icons</A></TD>
+<TD width=82%>This command can be used to line up icons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_selectdetails.htm">Select Details</A></TD>
+<TD width=82%>Select details which are shown in the result list and 
+specify actions for mouse commands.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><A HREF="hid_view_refresh.htm">Refresh</A></TD>
+<TD width=82%>You can use this command refresh the result list.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</P>
+
+</div>

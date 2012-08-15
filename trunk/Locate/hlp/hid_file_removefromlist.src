@@ -1,0 +1,10 @@
+TITLE=Remove from this list (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_removefromlist"></A>Remove from this list command (File menu/File Context menu)</H1>
+
+
+<P>Use this command to remove items from the result list. Files are <b>not</b> physically removed.</P>
+
+<P>This command is not visible if no files are selected.</P>
+</div>

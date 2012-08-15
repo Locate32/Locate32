@@ -1,0 +1,99 @@
+TITLE=Keyboard Shortcuts - Advanced dialog
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_shortcutsadvanced"></A>Advanced settings (Keyboard shortcuts)</H1>
+
+<p>This dialog can be used to specify some advanced level options for keyboard shortucts. 
+For example, you can specify global shortcuts which works everywhere in Windows (like Win-F). 
+
+
+
+<h2><a name="ska_type"></a>$DLGSHORTCUTSSETTINGSADVANCED_ADVANCEDOPTIONS@CM$</h2>
+
+<div id="keyboard_settings_level1">
+<p><b><a name="ska_type"></a>$DLGSHORTCUTSSETTINGSADVANCED_TYPE@CM$</b>:
+Specifies the type of shortcut. Choose <b>$STRSHORTCUTSSETTINGSADVANCED_LOCAL@C$</b> 
+if you want to specify a shortcut for the Locate32 dialog, or 
+<b>$STRSHORTCUTSSETTINGSADVANCED_GLOBALHOTKEY@C$</b> and 
+<b>$STRSHORTCUTSSETTINGSADVANCED_GLOBALHOOK@C$</b> if you want to specify a shortcut which 
+works anywhere in Windows regardless of the active application (e.g. to bring Locate32 dialog
+visible). The difference between latter to options is the way how shortcuts is implemented.
+Hotkey maybe be a safer choise (some antivirus tools may give a warning when hooks are used), 
+but not all key combinations can be specified as hotkeys (e.g. Win-F and other which are already 
+have meaning in Windows). Note that Locate32 won't give an error if a specified key combination 
+does not work as hotkey, the hotkey just does not work. </p>
+
+<p><b><a name="ska_scancode"></a>$DLGSHORTCUTSSETTINGSADVANCED_GIVENVIRTUALKEYISSCANCODE@CM$</b>:
+This option is enabled only if "Virtual key" check box is chosen in the keyboard shortcut settings. 
+When enabled, the value given in "Virtual key" field is treated as a scancode value instead of 
+a virtual key. If you don't know what this means, don't use this option. </p>
+</div>
+
+<h2><a name="ska_wherepressed"></a>$DLGSHORTCUTSSETTINGSADVANCED_WHEREPRESSED@M$</h2>
+
+<p>
+When the type of a shortcut is <b>$STRSHORTCUTSSETTINGSADVANCED_GLOBALHOTKEY@CM$</b> or 
+<b>$STRSHORTCUTSSETTINGSADVANCED_GLOBALHOOK@C$</b>, you can specify in a dialog, window or
+control which should be active when a shortcut is activated. For example, by default 
+the key F3 is assigned to make Locate32 dialog visible if (and only if) Windows Explorer 
+is activated.</p>
+
+<div id="keyboard_settings_level1">
+<p><b><a name="ska_window"></a>$DLGSHORTCUTSSETTINGSADVANCED_WINDOWTITLE@CM$</b>:
+Use this field to specify the title of a dialog, a window or a control which should be active. Special characters
+'*' and '?' can be used, and several titles given using '|' as a separator. </p>
+
+<p><b><a name="ska_class"></a>$DLGSHORTCUTSSETTINGSADVANCED_CLASS@CM$</b>:
+Use this field to specify the class of a dialog, a window or a control which should be active. Special characters
+'*' and '?' can be used, and several titles given using '|' as a separator. 
+Classes can be examined using tools like Spy++ and Winspector.
+For example, for Windows Explorer this value can be "ExploreWClass|CabinetWClass|Progman".
+</p>
+
+<p><b><a name="ska_locatedlg"></a>$DLGSHORTCUTSSETTINGSADVANCED_LOCATEDIALOG@CM$</b>:
+Choose this check box if you the shortcut is intended to work only in the Locate32 dialog. 
+Generally speaking, choosing this check box will lead the shortcut work like Local chortcuts
+and usually it is more reasonable to use Local shortcuts. However, you can try this way if 
+specifing shortcut as a Local shortcut won't work.</p>
+</div>
+
+
+
+<h2><a name="ska_wherepressed"></a>$DLGSHORTCUTSSETTINGSADVANCED_EXECUTEOPTIONS@M$</h2>
+
+<p>These options can be used to specify when action is executed and whether key sequence is 
+removed from standard Windows keyboard handler. These options are essential, for example, 
+when specifying Win+F to bring the Locate32 window visible in a way that the standard Windows 
+search window and Start menu will not appear. 
+</p>
+
+<div id="keyboard_settings_level1">
+<p><b><a name="ska_execute"></a>$DLGSHORTCUTSSETTINGSADVANCED_EXECUTEWHEN@CM$</b>:
+These check boxes specifies whether action is executed when key is pressed or when 
+it is released.
+</p>
+
+<p><b><a name="ska_remove"></a>$DLGSHORTCUTSSETTINGSADVANCED_REMOVEWHEN@CM$</b>:
+Use these check boxes to prevent other applications to observe pressed keys. 
+For example, when assigning Win+F, these options are used to prevent standard 
+Windows search appear. 
+</p>
+
+<p><b><a name="ska_beforewin"></a>$DLGSHORTCUTSSETTINGSADVANCED_SENDKEYRELEASEBEFOREWIN@CpM$</b>:
+If this option is not enabled, Start menu may appear when you press Win+F key such that you 
+release Win key before F key is released. This option switches the order of release events so that
+Start menu won't appear.
+</p>
+
+<p><b><a name="ska_wait"></a>$DLGSHORTCUTSSETTINGSADVANCED_WAITBEFOREEXECUTE@CM$</b>:
+You can use these options to specify delay for the actions assigned to the shortcut. 
+<b>Post</b> means that action is executed through Windows message handles using PostMessage 
+function. Generally you there is no need to use these options, but these may be useful in 
+some exceptional situations. 
+</p>
+
+</div>
+
+
+</div>
+

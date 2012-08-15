@@ -1,0 +1,19 @@
+REGEDIT4
+
+
+[HKEY_CLASSES_ROOT\CLSID\{73ACE856-AD8F-4346-9A07-775E45221BC8}]
+   @="Locate shell extension"
+[HKEY_CLASSES_ROOT\CLSID\{73ACE856-AD8F-4346-9A07-775E45221BC8}\InProcServer32]
+   @="dis:C:\\My Documents\\Programming\\C\\Locate\\shelldll\\Debug\\loc_shex.dll"
+   "ThreadingModel"="Apartment"
+
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Locate]
+   @="{73ACE856-AD8F-4346-9A07-775E45221BC8}"
+
+
+[HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Locate]
+   @="{73ACE856-AD8F-4346-9A07-775E45221BC8}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved]
+   "{73ACE856-AD8F-4346-9A07-775E45221BC8}"="Locate Shell Extension"

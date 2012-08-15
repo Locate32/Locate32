@@ -1,0 +1,11 @@
+TITLE=Find using databases (File menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_findusingdatabases"></A>Find using databases (File menu)</H1>
+
+<P>By default, databases which are enabled in Databases tab (Setting dialog) are used in searches.
+Use this command if you want to temporarily use different databases. This command will show 
+a dialog from which databases can be chosen.</P>
+
+<p>This command can also be executed when you click OK button while pressing Ctrl button.</p>
+</div>

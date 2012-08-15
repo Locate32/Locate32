@@ -1,0 +1,15 @@
+TITLE=Select Details (View menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_view_selectdetails"></A>Select Details (View menu)</H1>
+
+<P>Use this command to select details which are shown in the result list 
+when Details view mode is selected. </P>
+
+<P>
+You can also use this command to specify actions for the result list. 
+For example, you can specify an action which is executed when you double click 
+a file in the result list.
+</P>
+
+</div>

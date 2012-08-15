@@ -1,0 +1,11 @@
+TITLE=Copy MD5 sums to clipboard (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_copyMD5sumstoclipboard"></A>Copy MD5 sums to clipboard (Special menu)</H1>
+
+<P>Copies the MD5 sums to clipboard. If the MD5 sums are not computed before, those are computed during this command. 
+If only one file is selected, only MD5 sums is copied. If several files are selected, files names are also copied.
+Directories are ignored. </P>
+
+</div>
+

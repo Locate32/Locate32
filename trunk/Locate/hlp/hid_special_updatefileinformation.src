@@ -1,0 +1,9 @@
+TITLE=Update file information (Special menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_special_updatefileinformation"></A>Update file information (Special menu)</H1>
+
+<P>Use this command to update file information. This is done automatically if 
+"Enable Updating" option in Advanced settings is enabled.</P>
+
+</div>
