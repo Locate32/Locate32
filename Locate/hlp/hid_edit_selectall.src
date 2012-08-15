@@ -1,0 +1,7 @@
+TITLE=Select All command (Edit menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_edit_selectall"></A>Select All command (Edit menu)</H1>
+
+<P>Use this command to select all files in the result list. </P>
+</div>

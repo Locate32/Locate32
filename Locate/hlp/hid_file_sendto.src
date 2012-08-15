@@ -1,0 +1,10 @@
+TITLE=Send To (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_sendto"></A>Send To (File menu/File Context menu)</H1>
+
+<P>This menu can be used to copy ("send") the selected files to different locations
+
+The content of this menu varies depending on the operation system and installed programs.
+</P>
+</div>

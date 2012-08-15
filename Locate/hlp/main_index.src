@@ -1,0 +1,69 @@
+TITLE=Locate32 Help Index
+CONTENT=
+<div id="helptopics">
+
+<H1>Locate32 Help topics</H1>
+<p>
+This Locate32 help file. The most of operations and features are described in this file, so this is
+a good place to find help if you don't know how something works. Check also 
+Locate32 forum (<a href="http://locate32.net/forum">http://locate32.net/forum</a>). If you can't find an answer to your problem 
+here, you can post a question to <A HREF="http://locate32.net/forum/viewforum.php?f=6">Locate32 Support 
+forum</A>.
+
+
+If you have any suggestions related to this help file or, 
+please <a href="http://locate32.net/component/option,com_contact/task,view/contact_id,2/Itemid,29/">contact author</a>.
+
+<H2>Frequently asked questions and usual problems:</H2>
+<P>
+The following list contains solutions for most common problems. See also <A HREF="http://locate32.net/forum/viewforum.php?f=6">Locate32 
+Support forum</A>.
+<UL>
+<LI><A HREF="issue_searchterms.htm">How to form correct search expression (logical operations, regular expressions, etc...).</A></LI>
+<LI><A HREF="issue_datasearch.htm">How to search text or other data inside of files.</A></LI>
+<LI><A HREF="howto_externaldrives.htm">How to index network drives, USB memory sticks, external drives, etc...</A></LI>
+<LI><A HREF="howto_defaultsearchapp.htm">How to use Locate32 as a default desktop search application in Windows Vista (requires SP1)</A></LI>
+<LI><A HREF="issue_commandLInearguments.htm">Command line arguments for Locate32.exe.</A></LI>
+</UL>
+</P>
+
+
+<H2>User interface related topics:</H2>
+<P>
+Fields and other controls in Locate32 dialog are described in the following topics. 
+<UL>
+<LI><A HREF="dialog_locate.htm">Locate dialog</A></LI>
+<LI><A HREF="tab_name.htm">Name & Location tab</A></LI>
+<LI><A HREF="tab_sizedate.htm">Size and Date tab</A></LI>
+<LI><A HREF="tab_advanced.htm">Advanced tab</A></LI>
+<LI><A HREF="dialog_selectdetails.htm">Select Details dialog</A></LI>
+</UL>
+</P>
+
+<P>
+Menu commands are described in the following topics.
+<UL>
+<LI><A HREF="menu_file.htm">File menu</A></LI>
+<LI><A HREF="menu_edit.htm">Edit menu</A></LI>
+<LI><A HREF="menu_view.htm">View menu</A></LI>
+<LI><A HREF="menu_tools.htm">Tools menu</A></LI>
+<LI><A HREF="menu_help.htm">Help menu</A></LI>
+<LI><A HREF="menu_contextmenu.htm">Context menus</A></LI>
+<LI><A HREF="menu_systemtray.htm">System tray menu</A></LI>
+</UL>
+</P>
+
+<P>
+Options in the settings dialog are described in the following topics.
+<UL>
+<LI><A HREF="settings_general.htm">General tab</A></LI>
+<LI><A HREF="settings_advanced.htm">Advanced tab</A></LI>
+<LI><A HREF="settings_languages.htm">Language tab</A></LI>
+<LI><A HREF="settings_databases.htm">Databases tab</A></LI>
+<LI><A HREF="settings_autoupdate.htm">Auto Update tab</A></LI>
+<LI><A HREF="settings_shortcuts.htm">Keyboard Shortcut tab</A></LI>
+</UL>
+</P>
+
+
+</div>

@@ -1,0 +1,85 @@
+TITLE=Databases tab / Settings dialog
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_databases"></A>Databases Settings</H1>
+
+<p>You can use this tab to specify databases that Locate uses in searches. 
+Databases are shown in the <A NAME="sd_list"></A>list.
+
+<div id="settings_databases_fields">
+<p>
+<b><A NAME="sd_list"></A>Databases currently in used</b>:
+This list shows databases which are used for the meantime.
+The check box in the list specifies whether the database is enabled (i.e., used for searches) and, 
+if "Update globally" state is "Yes", the database will be updated when
+"Update databases" command is chosen.  
+<br>
+<br>
+The list typically shows databases which settings are stored in the Windows registry
+and are used in normal operation. However, if you have used command line arguments 
+('-D' or '-d') to specify any databases, databases that are shown in the list shows are those given 
+by the command line arguments. In that case, you can discard the databases given in the command 
+line by pressing <A NAME="sd_restore"></A><b>Restore</b> button. 
+</p>
+<p>
+<b><A NAME="sd_new"></A>New</b>:
+Use this button to specify a new database. This button will open 
+<a href="settings_databasedlg.htm">Database dialog</a> to specify the
+setting of the new database.
+</p>
+<p>
+<b><A NAME="sd_edit"></A>Edit</b>:
+Use this button to edit the setting of the selected database. This button will open 
+<a href="settings_databasedlg.htm">Database dialog</a>.
+</p>
+<p>
+<b><A NAME="sd_remove"></A>Remove</b>:
+Use this button to remove the selected database from the list. 
+If the database file is exists in the disk, Locate will ask you that do you want 
+physically remove this file or remove only the setting from the registry. 
+</p>
+<p>
+<b><A NAME="sd_enable"></A>Enable</b> and <b>Disable</b>:
+Use these buttons to enable and disable selected database. If a database is enabled,
+it will be used in normal searches (when you press Find Now button or Enter). 
+This enabled/disabled state do not have effect on the "Update databases" command. 
+</p>
+<p>
+<b><A NAME="sd_globalupdate"></A>Global U.</b>:
+Use this button to change the update globally state for the selected database. 
+If this state is enabled, the database will be updated when
+"Update databases" command is chosen.  
+</p>
+<p>
+<b><A NAME="sd_up"></A>Up</b> and <b>Down</b>:
+Use these buttons to move selected databases up or down in the list.
+If multiple threads are used, these Up and Down buttons can be used 
+to switch between threads. 
+</p>
+<p>
+<b><A NAME="sd_import"></A>Import</b>:
+Use this button to import the settings from the existing database file.
+</p>
+<p>
+<b><A NAME="sd_export"></A>Export</b>:
+Use this button to export the settings to a file. You can use this button when 
+you have changed the setting of the database and you want merge the settings 
+to the existing database file without overwriting the content of database (e.g., 
+using "Update databases" command).
+</p>
+<p>
+<b><A NAME="sd_threads"></A>Threads used for updating</b>:
+You can use threads to parallelize the update process. For example, if 
+you have two databases, one for local drives and one for a network share or external USB drive, 
+you can use two threads so that the first database containing the file in local drives are updated 
+using the first thread and the second database using the another thread. Then these database will 
+be updated simultaneously and lots of time is saved. <b>Note:</b>
+it is not reasonable to use multiple threads for drives which are physically in 
+the same disk. Namely it is significantly slower to read the disc from two 
+different locations at the same time. 
+</p>
+
+</div>
+
+</div>
+

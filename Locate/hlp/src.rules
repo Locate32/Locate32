@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="Raw HTML files"
+	Version="8,00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="lrestoolHTML"
+			DisplayName="HTML Help Page Compiler"
+			CommandLine="lrestool -h [AllOptions] [AdditionalOptions] -o &quot;$(InputDir)\$(InputName).htm&quot; ..\languages\lan_en\english.lrf &quot;$(InputPath)&quot;"
+			Outputs="$(InputDir)\$(InputName).htm"
+			FileExtensions="*.src"
+			ExecutionDescription="Generating $(InputName).htm ..."
+			BatchingSeparator=""
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Locate32 Help Index">
+		<param name="Local" value="main_index.htm">
+		</OBJECT></LI>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="General issues">
+		</OBJECT></LI>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Special terms in searches">
+			<param name="Local" value="issue_searchterms.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Command Line arguments">
+			<param name="Local" value="issue_commandLInearguments.htm">
+			</OBJECT></LI>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="How To">
+		</OBJECT></LI>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Search text and other data inside of files">
+			<param name="Local" value="issue_datasearch.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Index external drives">
+			<param name="Local" value="howto_externaldrives.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Setup Locate32 as a default desktop search application">
+			<param name="Local" value="howto_defaultsearchapp.htm">
+			</OBJECT></LI>
+		
+	</UL>
+			
+		
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dialogs">
+		</OBJECT></LI>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Locate dialog">
+			<param name="Local" value="dialog_locate.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Name & Location tab">
+			<param name="Local" value="tab_name.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Size and data tab">
+			<param name="Local" value="tab_sizedate.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Advanced tab">
+			<param name="Local" value="tab_advanced.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Select Details">
+			<param name="Local" value="dialog_selectdetails.htm">
+			</OBJECT></LI>
+		
+	</UL>
+	
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menus">
+		</OBJECT></LI>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File menu commands">
+			<param name="Local" value="menu_file.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edit menu commands">
+			<param name="Local" value="menu_edit.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="View menu commands">
+			<param name="Local" value="menu_view.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tools menu commands">
+			<param name="Local" value="menu_tools.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Help menu commands">
+			<param name="Local" value="menu_help.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Context menu commands">
+			<param name="Local" value="menu_contextmenu.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System tray menu commands">
+			<param name="Local" value="menu_systemtray.htm">
+			</OBJECT></LI>
+	</UL>
+	
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Settings">
+		</OBJECT></LI>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="General tab">
+			<param name="Local" value="settings_general.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Advanced tab">
+			<param name="Local" value="settings_advanced.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Language tab">
+			<param name="Local" value="settings_languages.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Databases tab">
+			<param name="Local" value="settings_databases.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Auto Update tab">
+			<param name="Local" value="settings_autoupdate.htm">
+			</OBJECT></LI>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Keyboard Shortcuts tab">
+			<param name="Local" value="settings_shortcuts.htm">
+			</OBJECT></LI>
+		
+	</UL>
+</UL>
+</BODY></HTML>

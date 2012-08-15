@@ -1,0 +1,7 @@
+TITLE=Database Info (File menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_databaseinfo"></A>Database Info (File menu)</H1>
+
+<P>This command opens a dialog which shows information about databases.</P>
+</div>

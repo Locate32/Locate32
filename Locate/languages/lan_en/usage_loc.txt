@@ -1,0 +1,42 @@
+
+usage: locate [-s] [-p path] [-t type] [-d dbfile] [-r] [-D dbname] [-h] file
+
+parameters:
+    -s          pause after page
+    -i          shows what are we looking for
+    --			terminate parameter list
+    -p          look in directory 'path'
+    -r          'file' is interpreted as regular expression
+    -rc         'file' is interpreted as regular expression (case sensitive)
+    -w          use whole path, not just file name
+    -t          set extension
+    -R          search subdirectories 
+    -Rn         don't search subdirectories
+    -+			allow logical operators + and - (if you want to use -, use -- argument)
+    -+n			do not allow logical operators + and - 
+    -d file     set database file
+    -D name     uses database named 'name'
+    -lm:SIZE    set minimum size to SIZE, eg -lms:100k
+    -lM:SIZE    set maximum size to SIZE, eg -lMs:10M
+    -lDmDAY  	set minimum file modification date, day can be exact date in the 
+		form of YYMMDD, or number (0 is today, 1 is yesterday, etc)
+    -lDcDAY  	set minimum file creation date
+    -lDaDAY  	set minimum file last access date
+    -lDMDAY  	set maximum file modification date
+    -lDCDAY  	set maximum file creation date
+    -lDADAY	set maximum file last access date 
+    -ln:NUM     set number of maximum found files
+    -lf         look only file names (default)
+    -ld         look only directory names
+    -lfd        look file and directory names
+    -lw         match whole name only
+    -lrn        don't replace spaces with asterisk
+    -lc:TEXT    file must contain string TEXT
+    -lcm        string text is match case (default)
+    -lcn        string text is not match case
+    -lR:TEXT    same as above but TEXT is regular expression
+    -v          verbose mode, information about search
+    -X:CUSTOM   use different settings branch (see locate.ini file)
+    -h          help, this screen
+
+EOF

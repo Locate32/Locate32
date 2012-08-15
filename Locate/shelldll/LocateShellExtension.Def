@@ -1,0 +1,7 @@
+;shellext.def : Declares the module parameters for the DLL.
+;Copyright 1993 - 1999 Microsoft Corporation.  All Rights Reserved.
+
+LIBRARY      LOC_SHEX
+EXPORTS
+    DllCanUnloadNow private
+    DllGetClassObject private

@@ -1,0 +1,65 @@
+TITLE=Name & Location tab
+CONTENT=
+<div id="tabs">
+<H1><A NAME="tab_name"></A>$STRNAME_TABCAPTION@A$ tab</H1>
+
+<P>The <b>$STRNAME_TABCAPTION@A$</b> tab contains the following fields:</P>
+
+<div id="controls">
+<H2><A NAME="tn_name"></A>$DLGNAME_NAMED@M$</H2>
+<P>Use this field to specify file name. Leave this field empty if file does not matter. 
+You can also use wildcards '*' (any characters) or '?' (any one character) as usually. Several names
+can be specified by using comma ',' or semicolon ';' as the separator (space is also acceptable
+separator if <b><a href="settings_advanced.htm#sa_spaceisseparator">$STRADVANCEDSETTINGS_SPACEISSEPARATOR@C$</a></b> 
+option in Advanced settings is enabled). All slashes '/' are replaces with backslashes '\'. You can use apostrophes "" if file 
+name contains special characters such as commas. <b>See <a href="issue_searchterms.htm">search syntax</a></b>.
+</P>
+
+<H2><A NAME="tn_type"></A>$DLGNAME_EXTENSIONS@M$</H2>
+<P>
+You can use this field to specify extensions.  
+Several extensions can be specified by using space ' ', comma ',' or semicolon ';' as separator. You can also 
+choose which extension are excluded from search by using '-' (e.g. "-tmp -log"). Wildcards '*' (any characters) 
+or '?' (any one character) are also allowed. Extensions can also be specified in "Named:" field (e.g. "*.txt").
+If the given extension contains dots '.', the part after the (last) dot is only used.
+</P>
+<P>
+If extensions are specified by using this field, only files are searched and "Check:"
+field in $STRADVANCED_TABCAPTION@A$ tab is disabled. This field is disabled if <b>$DLGADVANCED_USEWHOLEPATH@M$</b> 
+check box in $STRADVANCED_TABCAPTION@A$ tab is chosen.
+</P>
+
+<H2><A NAME="tn_lookin"></A>$DLGNAME_LOOKIN@M$</H2>
+<P>
+Use this field to specify directories for files. Choose a location from the drop-down 
+list or type directory name. All slashes '/' are replaces with backslashes '\'. You can give several directories by using 
+semicolon ';' as separator. You can also specify which directories are excluded by adding - 
+character to begin. For example, "c:\windows;-c:\windows\system32" will search files
+in C:\Windows but not in C:\Windows\System32.
+</P>
+<P>
+There is also an alternative way to specify sevaral directories. If 
+<a href="settings_advanced.htm#sa_multidir">$STRADVANCEDSETTINGS_MULTIPLEDIRECTORIES@C$</a>
+ option in Advanced setting is enabled, "#1" button will be shown 
+n right. If you press that button, a pop-up menu will appear
+which can be used to specify several directories. The number in button shows which selection
+is activated. 
+</P>
+
+<H2><A NAME="tn_nosubdirs"></A>$DLGNAME_NOSUBDIRECTORIES@M$</H2>
+<P>
+By default, files and folders in subdirectories will also returned. You can use this field to 
+exclude files and folder in subdirectories.
+</P>
+
+<H2><A NAME="tn_browse"></A>$DLGNAME_BROWSE@M$</H2>
+<P>
+You can use this button to specify a directory for "Look in:" field using the tree like dialog. 
+If "Look in:" field contains several directories or ';', the chosen directory is added to the list of directories. 
+</P>
+
+</div>
+
+
+</div>
+

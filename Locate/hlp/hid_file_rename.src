@@ -1,0 +1,13 @@
+TITLE=Rename (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_rename"></A>Rename (File menu/File Context menu)</H1>
+
+<P>Use this command to rename the selected files.
+
+This command is not visible if no file is selected.</P>
+
+<p><b>Note:</b>databases are not updated after file operations. Thus, if a new 
+search is done before databases are updated, old file names are used and the files
+ are marked as "Deleted files". </p>
+</div>

@@ -1,0 +1,19 @@
+TITLE=Change field (Keyboard Shortcuts)
+CONTENT=
+<div id="actions">
+<H1><A NAME="actions_changefields"></A>Change field (Keyboard Shortcuts)</H1>
+
+<p>
+These actions can be used to change the value of fields in the Locate32 dialog.
+The control which value would be changed is chosen in the "control" combo box.
+The value depends on the type of control as follows.
+
+<ul>
+<li>Text fields or a combo box with editable text: give a value as an text</li>
+<li>Check boxes: enter 1 to check or 0 to uncheck</li>
+<li>Combo boxes: give an index as number (0,1,2,...)</li>
+<li>Date: give date in the form YYYYMMDD. You can also give a "relative date", e.g., 
+type '0' for today, 'N' for N'th in future or '-N' for N'th day before this day. </li>
+</ul>
+
+</div>

@@ -1,0 +1,26 @@
+REGEDIT4
+
+
+[HKEY_CLASSES_ROOT\CLSID\{8A2F2E09-3209-4934-ACB1-DE5BB052950F}]
+   @="Locate Find Extension"
+[HKEY_CLASSES_ROOT\CLSID\{8A2F2E09-3209-4934-ACB1-DE5BB052950F}\InProcServer32]
+   @="D:\\PROGRA~1\\Locate\\loc_fndx.dll"
+   "ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FindExtensions\Static\Locate32]
+@="{8A2F2E09-3209-4934-ACB1-DE5BB052950F}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FindExtensions\Static\Locate32\0]
+@="Locate..."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FindExtensions\Static\Locate32\0\DefaultIcon]
+@="C:\\MYDOCU~1\\PROGRA~1\\C\\Locate\\FINDEX~1\\Debug\\loc_fndx.dll,0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FindExtensions\Static\Locate32\0\HelpText]
+@="Search using Locate32"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FindExtensions\Static\Locate32\0\SearchGUID]
+@="{8A2F2E09-3209-4934-ACB1-DE5BB052950F}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved]
+   "{8A2F2E09-3209-4934-ACB1-DE5BB052950F}"="Locate find extension"

@@ -1,0 +1,12 @@
+TITLE=Exit command
+CONTENT=
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="exit">
+</OBJECT>
+<div id="menucommands">
+
+<H1><A NAME="hid_app_exit"></A>Exit command (File menu/System tray menu)</H1>
+
+<P>This command closes Locate dialog and completely quits Locate32.  </P>
+
+</div>

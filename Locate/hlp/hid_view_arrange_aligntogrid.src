@@ -1,0 +1,10 @@
+TITLE=Align to Grid (Arrange menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_view_arrrange_aligntogrid"></A>Align to Grid (Arrange menu)</H1>
+
+<P>Align icons so that icons are in a "grid".</P>
+
+<p>This command is available only if Large Icons or Small Icons view mode is selected.</p>
+
+</div>

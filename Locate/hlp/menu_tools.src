@@ -1,0 +1,34 @@
+TITLE=Options menu commands
+CONTENT=
+<div id="menus">
+<H1><A NAME="menu_tools"></A>Tools menu commands</H1>
+
+
+<P>The Tools menu offers the following commands:
+
+<TABLE id="menutable" cols=2>
+<TBODY>
+
+<TR VALIGN="top">
+<TD width=21%><A HREF="hid_tools_deleteprivatedata.htm">Delete Private Data</A></TD>
+<TD width=79%>This feature can be used to clear some private data such as dropdown boxes in main dialog.</TD>
+</TR>
+
+
+<TR VALIGN="top">
+<TD width=21%><A HREF="hid_tools_settings.htm">Settings</A></TD>
+<TD width=79%>Opens the settings dialog.</TD>
+</TR>
+
+
+
+<TR VALIGN="top">
+<TD width=21%><A HREF="hid_tools_settingstool.htm">Settings Backup Tool</A></TD>
+<TD width=79%>Opens settings backup tool.</TD>
+</TR>
+
+</TBODY>
+</TABLE>
+</P>
+</div>
+

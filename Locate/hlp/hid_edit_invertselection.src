@@ -1,0 +1,9 @@
+TITLE=Invert Selection command (Edit menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_edit_invertselection"></A>Invert Selection command (Edit menu)</H1>
+
+<P>Use this command to invert selection in the result list.</P>
+
+<P>When this command chosen, files which are not selected become selected and vice versa.</P>
+</div>

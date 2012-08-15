@@ -1,0 +1,19 @@
+TITLE=Auto Update tab / Settings dialog
+CONTENT=
+<div id="settings">
+<H1><A NAME="settings_autoupdate"></A>Scheduled updates</H1>
+
+<p>The scheduled updates page in the settings dialog can be used to setup Locate32 
+to update databases at some given times.</p>
+
+<p>You can setup a scheduled update by clicking <b>Add</b> button. To edit the settings of 
+an already specified scheduled update, choose the correct item in the list and click <b>Edit</b>.
+To remove scheduled update, use <b>Delete</b> button. <b>Up</b> and <b>Down</b> button can be used 
+to the order of scheduled updates (if two or more updates are sheduled at the same time, the uppermost schedule 
+have higher priority).</p>
+
+<p>Sometimes when Locate32 is specified to start automatically when Windows starts. Then, to reduce 
+simultaneous HD usage, it maybe be usefull to prevent scheduled autoupdates to be executed right after 
+Locate32 is started. You can do that by setting a delay using <b>$STRAUTOUPDATESETTINGS_DELAY@C$</b> 
+option in this page. 
+</div>

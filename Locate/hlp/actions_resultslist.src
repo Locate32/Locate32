@@ -1,0 +1,104 @@
+TITLE=Results list actions (Keyboard Shortcuts / View Details)
+CONTENT=
+<div id="actions">
+<H1><A NAME="actions_results list"></A>Results list actions (Keyboard Shortcuts / View Details)</H1>
+
+<P>
+The Results list category contains the following actions:
+
+<div id="actions">
+
+<p><b><a name="alist1"></a>$STRACTION_EXECUTE@M$</b>:
+This action executes files and directories selected in the results list. 
+The default action depends on the file type and the command 
+associated for the type in Windows. You can give an operation registered for 
+the file type using the <b>Operation</b> field. 
+To execute files and directories using a command line, use 
+<b>$STRACTION_EXECUTECOMMAND@M$</b> action below.
+</p>
+
+<p><b><a name="alist2"></a>$STRACTION_COPY@M$</b> and <b><a name="alist3"></a>$STRACTION_CUT@M$</b>:
+This action copies/cuts the selected files and directories to the clipboard. </p>
+
+
+<p><b><a name="alist4"></a>$STRACTION_RECYCLE@M$</b>:
+This action moves the selected files and directories to the recycle bin (a confirmation will be asked). 
+The deleted files and folders can be restored using Recycle bin. This action is assigned for the 
+DEL key (in the results list and also in Windows Explorer). Note that databases are not updated 
+and files and folders are shown in deleted files/directories in subsequent searches. 
+</p>
+
+<p><b><a name="alist5"></a>$STRACTION_DELETE@M$</b>:
+This action deletes the selected files and directories to the recycle bin (a confirmation will be asked). 
+The deleted files and directories cannot be restored without using some special tool which scans whole partion. 
+Note that databases are not modified and files and folders are shown in deleted files/directories in subsequent searches. 
+</p>
+
+<p><b><a name="alist6"></a>$STRACTION_OPENCONTEXTMENU@M$</b>:
+This action opens a popup menu associated to the highlighted file or directory. </p>
+
+<p><b><a name="alist7"></a>$STRACTION_OPENCONTEXTMENUSIMPLE@M$</b>:
+This action opens a popup menu for the selected file or directory. 
+This menu does not contain additional shell menu items associated 
+for the selected file type. </p>
+
+<p><b><a name="alist8"></a>$STRACTION_OPENFOLDER@M$</b>:
+If the selected item in the results list is directory, 
+this action will open the directory. </p>
+
+<p><b><a name="alist9"></a>$STRACTION_OPENCONTAININGFOLDER@M$</b>:
+This action opens the parent directories for the selected files and directories. 
+</p>
+
+<p><b><a name="alist10"></a>$STRACTION_PROPERTIES@M$</b>:
+This action shows the dialog which can be used to view and adjust 
+the properties of selected files and directories. </p>
+
+<p><b><a name="alist11"></a>$STRACTION_SPECIALMENU@M$</b>:
+This action opens <A HREF="menu_special.htm">Special popup menu</A>.
+</p>
+
+<p><b><a name="alist12"></a>$STRACTION_EXECUTECOMMAND@M$</b>:
+This action can be used to execute command (e.g. open the selected file into 
+a viewer application). The following variables can be used in the 
+<b>Command:</b> fields:
+<TABLE id="variablestable" cols=2>
+<TBODY>
+<TR class="toprow"><TD class="action_name">Category</b></TD><TD class="action_description">Description</TD></TR>
+<TR><TD class="variable_name">%d</TD>
+    <TD class="variable_description">The path of the selected file (e.g. "C:\Windows\notepad.exe"). </TD></TR>
+<TR><TD class="variable_name">%p</TD>
+    <TD class="variable_description">The parent directory for the selected file (e.g. "C:\Windows"). </TD></TR>
+<TR><TD class="variable_name">%f</TD>
+    <TD class="variable_description">The file name (e.g. "notepad.exe"). </TD></TR>
+<TR><TD class="variable_name">%n</TD>
+    <TD class="variable_description">The file name without extension (e.g. "notepad"). </TD></TR>
+<TR><TD class="variable_name">%e</TD>
+    <TD class="variable_description">The extension (e.g. "exe"). </TD></TR>
+</TBODY>
+</TABLE>
+This action is same as the "$STRACTION_EXECUTECOMMAND@M$" action in the $STRACTION_MISC$ gategory.
+</p>
+
+<p><b><a name="alist13"></a>$STRACTION_SELECTFILE@M$</b>:
+This action can be used to select next file, previous file, next 
+non-deleted file and previous non-deleted file. </p>
+
+<p><b><a name="alist14"></a>$STRACTION_RENAMEFILE@M$</b>:
+This action can be used to rename file and directories. 
+If <a href="settings_advanced.htm#sa_exprenaming">
+$STRADVANCEDSETTINGS_ALLOWINPLACERENAMING@C$</a> option is enabled, 
+the file can be renamed in the results list just like in Windows 
+Explorer and if the option is disabled, the dialog for new name is shown. 
+Note that databases are not modified and in subsequent searches renamed 
+files/directories can only be found using the old name. </p>
+
+<p><b><a name="alist15"></a>Select N'th file</b>:
+This action can be used to select N'th file in the results list.
+</p>
+
+<p><b><a name="alist16"></a>Execute N'th file</b>:
+This action can be used to execute N'th file in the results list.
+</p>
+
+</div>

@@ -1,0 +1,10 @@
+TITLE=Stop updating (File menu/System tray menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_stopupdating"></A>Stop updating (File menu/System tray menu)</H1>
+
+<P>Use this command to interrupt updating process. 
+
+This command is only available while update process is running. </P>
+
+</div>

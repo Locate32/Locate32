@@ -1,0 +1,67 @@
+TITLE=Advanced tab
+CONTENT=
+<div id="tabs">
+<H1><A NAME="tab_advanced"></A>$STRADVANCED_TABCAPTION@A$ tab</H1>
+
+<P>The <b>$STRADVANCED_TABCAPTION@A$</b> tab contains the following fields:
+
+<div id="controls">
+<H2><A NAME="ta_check"></A>$DLGADVANCED_LOOKFOR@M$</H2>
+<P>Use this field to specify that is searching done among files, directories, or both. 
+The default setting for this field can be specified in General settings.
+</P>
+
+<H2><A NAME="ta_matchwholename"></A>$DLGADVANCED_MATCHWHOLENAME@M$</H2>
+<P>If this check box is enabled, a given search term should match whole while name, 
+not only to a part of file name. On the contrary, if this check box is not turned on,
+a given search term is treated as if asterisks would be added to the begin and the end to the search term. 
+The default state for this field can be specified in the 
+<a href="settings_general.htm">General settings</a>.
+</P>
+
+<H2><A NAME="ta_matchcase"></A>$DLGADVANCED_MATCHCASE@M$</H2>
+<P>If this check box is enabled, the case of a given search term should match. For example, if 
+enabled, "EX" match to "EXAMPLE", "EXample", but not "example" or "Example".
+The default state for this field can be specified in the 
+<a href="settings_general.htm">General settings</a>.
+</P>
+
+
+<H2><A NAME="ta_usewholepath"></A>$DLGADVANCED_USEWHOLEPATH@M$</H2>
+<P>If check box field is selected, the given search term is compared to the whole path 
+(instead of just file name). For example, "*foo*bar*" will
+find a file "C:\foo\bar.txt". The default state for this field can be specified 
+in the <a href="settings_general.htm">General settings</a>.
+</P>
+
+
+<H2><A NAME="ta_replacespaces"></A>$DLGADVANCED_REPLACESPACES@M$</H2>
+<P>If this check box is selected, spaces in a string given in "$DLGNAME_NAMED@M$" field are 
+replaced with asterisks '*'. The default state for this field can be specified 
+in the <a href="settings_general.htm">General settings</a>.
+<br><br>
+You can also specify other characters which are replaced with '*'. Hold Ctrl key 
+down when you click the check box to open a dialog which be used to specify 
+which characters are replaced. You also specigy that questions marks '?' are used instead of asterisks '*'. 
+</P>
+
+
+<H2><A NAME="ta_typeoffile"></A>$DLGADVANCED_TYPEOFFILE@M$</H2>
+<P>You can specify the type of files by using this field. If this field is used,
+"$DLGNAME_EXTENSIONS@M$" field in $STRNAME_TABCAPTION@A$ tab is disabled and the extension 
+corresponding to the chosen file type are shown in this "$DLGNAME_EXTENSIONS@M$" field.
+</P>
+
+<H2><A NAME="ta_fileconttext"></A>$DLGADVANCED_CONTAININGTEXT@M$</H2>
+<P>Use this field to find texts inside of files. See <A href="issue_datasearch.htm">details</A>.
+</P>
+
+<H2><A NAME="ta_datamatchcase"></A>$DLGADVANCED_DATAMATCHCASE@M$</H2>
+<P>Use this field to specify whether the text fiven in <b>$DLGADVANCED_CONTAININGTEXT@M$</b> field is 
+case sensitive or not. The default state for this field can be specified 
+in the <a href="settings_general.htm">General settings</a>.
+</P>
+
+</div>
+</div>
+

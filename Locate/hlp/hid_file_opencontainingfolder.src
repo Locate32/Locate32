@@ -1,0 +1,9 @@
+TITLE=Open Containig Folder (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_opencontainingfoler"></A>Open Containing Folder (File menu/File Context menu)</H1>
+
+<P>Use this command to open folders in which the selected files are.</P>
+
+<P></P>This command is not visible if no files are selected.</P>
+</div>

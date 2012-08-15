@@ -1,0 +1,9 @@
+TITLE=Line Up Icons (View menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_view_lineupicons"></A>Line Up Icons (View menu)</H1>
+
+<P>Align icons so that the top and bottom of icons are on the same level.</P>
+
+<p>This command is available only if Large Icons or Small Icons view mode is selected.</p>
+</div>

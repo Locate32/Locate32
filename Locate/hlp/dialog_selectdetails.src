@@ -1,0 +1,136 @@
+TITLE=$DLGSELECTDETAILS_CAPTION@M$ dialog
+CONTENT=
+<div id="dialogs">
+<H1><A NAME="dialog_selectdetails"></A>$DLGSELECTDETAILS_CAPTION@M$ dialog</H1>
+
+<P>The <b>$DLGSELECTDETAILS_CAPTION@M$</b> dialog can be used to choose which 
+columns (details) are visible in the result list. </p>
+
+<h2><a name="sk_list"></a>Details list</h2>
+
+<p>
+You can make chosen detail visible by checking the corresponding detail item in the 
+"$DLGSELECTDETAILS_TEXT@CM$" list or by using <b><a name="sdd_show"></a>$DLGSELECTDETAILS_SHOW@M$</b>.
+To hide chosen detail, uncheck the detail or use <b><a name="sdd_hide"></a>$DLGSELECTDETAILS_HIDE@M$</b> 
+button. You can adjust the width of the column using <b><a name="sdd_width"></a>$DLGSELECTDETAILS_WIDTH@CM$</b>
+field below the details list. Alignement of the column can be adjusted using the 
+<b><a name="sdd_left"></a>$DLGSELECTDETAILS_LEFT@M$</b>,
+<b><a name="sdd_right"></a>$DLGSELECTDETAILS_RIGHT@M$</b> and
+<b><a name="sdd_center"></a>$DLGSELECTDETAILS_CENTER@M$</b> check boxes.
+</p>
+
+<p>
+You can change the order of column using <b><a name="sdd_move"></a>$DLGSELECTDETAILS_MOVEUP@M$</b> and
+<b>$DLGSELECTDETAILS_MOVEDOWN@M$</b> buttons. The order of columns of the column in the results list
+will be the same as the order of details in this list. 
+</p>
+
+<p>
+You can restore the results list to default state by pressing 
+<b><a name="sdd_reset"></a>$DLGSELECTDETAILS_RESET@M$</b> button.
+Default actions (see below) can be restored using 
+<b><a name="sdd_resetactions"></a>$DLGSELECTDETAILS_RESETACTIONS@M$</b> 
+button.
+</p>
+
+The following table contains the details shown in the list.
+<TABLE id="detailstable" cols=2>
+<TBODY>
+<TR class="toprow"><TD class="detail_name">Detail</b></TD>
+	<TD class="detail_description">Description</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_NAME@M$</TD>
+	<TD class="detail_description">Name of the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_INFOLDER@M$</TD>
+	<TD class="detail_description">Location of the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_FULLPATH@M$</TD>
+	<TD class="detail_description">Contains also drive and directory name.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_SHORTFILENAME@M$</TD>
+	<TD class="detail_description">File name in short 8.3 format.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_SHORTFILEPATH@M$</TD>
+	<TD class="detail_description">$STRMAIN_FILELISTCOLUMN_FULLPATH@M$ in 8.3 format.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_SIZE@M$</TD>
+	<TD class="detail_description">The size of file</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_TYPE@M$</TD>
+	<TD class="detail_description">Type of file. The format depends on the options in <a href="settings_advanced.htm">Advanced settings<a>.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_MODIFIED@M$</TD>
+	<TD class="detail_description">Date and time of last modifcation. The format depends on <A HREF="settings_advanced.htm#sa_dateformat">$STRADVANCEDSETTINGS_SHOWDATESINFORMAT@C$</A> 
+	and <A HREF="settings_advanced.htm#sa_timeformat">$STRADVANCEDSETTINGS_SHOWTIMESINFORMAT@C$</A> options in <a href="settings_advanced.htm">Advanced settings<a>.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_CREATED@M$</TD>
+	<TD class="detail_description">Creation date and time of the file. The format depends on <A HREF="settings_advanced.htm#sa_dateformat">$STRADVANCEDSETTINGS_SHOWDATESINFORMAT@C$</A> 
+	and <A HREF="settings_advanced.htm#sa_timeformat">$STRADVANCEDSETTINGS_SHOWTIMESINFORMAT@C$</A> options in <a href="settings_advanced.htm">Advanced settings<a>.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_ACCESSED@M$</TD>
+	<TD class="detail_description">Date and time of most recent file access. The format depends on <A HREF="settings_advanced.htm#sa_dateformat">$STRADVANCEDSETTINGS_SHOWDATESINFORMAT@C$</A> 
+	and <A HREF="settings_advanced.htm#sa_timeformat">$STRADVANCEDSETTINGS_SHOWTIMESINFORMAT@C$</A> options in <a href="settings_advanced.htm">Advanced settings<a>.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_ATTRIBUTES@M$</TD>
+	<TD class="detail_description">Attributes: Junction, Symbolic Link, Directory,  Read only, Hidden, System, Archive, Compressed, Encrypted.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_IMAGEDIMENSIONS@M$</TD>
+	<TD class="detail_description">If the file is an image, dimensions of the image are shown.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_OWNER@M$</TD>
+	<TD class="detail_description">Owner of the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_DATABASE@M$</TD>
+	<TD class="detail_description">The name of the database which includes the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_DATABASEDESCRIPTION@M$</TD>
+	<TD class="detail_description">The description of the database which includes the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_DATABASEFILE@M$</TD>
+	<TD class="detail_description">The file of the database which includes the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_VOLUMELABEL@M$</TD>
+	<TD class="detail_description">The name of the drive or volume containing the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_VOLUMESERIAL@M$</TD>
+	<TD class="detail_description">The serial number of the volume containing the file. This is a property of the file system.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_VOLUMEFILESYSTEM@M$</TD>
+	<TD class="detail_description">The file system of the volume containing the file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_MD5SUM@M$</TD>
+	<TD class="detail_description">MD5 sum of the file (if computed). See <a href="hid_special_computeMD5sums.htm">$MENUPOPUP_CONTEXTMENU_COMPUTEMD5SUM$</a>
+or <a href="hid_special_computeMD5sumsforequalsizefiles.htm">
+$MENUPOPUP_CONTEXTMENU_MD5SUMSFORSAMESIZEFILES$</a> commands in 
+<a href="menu_special.htm">$MENUPOPUP_CONTEXTMENU_SPECIAL@M$ menu</A>, or 
+<A HREF="settings_advanced.htm#sa_md5sums">$STRADVANCEDSETTINGS_COMPUTEMD5SUMS@C$</A> option 
+in <a href="settings_advanced.htm">Advanced settings<a>.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_AUTHOR@M$</TD>
+	<TD class="detail_description">The author of the file. This is usually shown for office documents.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_TITLE@M$</TD>
+	<TD class="detail_description">The title of the file. This is usually shown for office documents.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_SUBJECT@M$</TD>
+	<TD class="detail_description">The subject of the file. This is usually shown for office documents.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_CATEGORY@M$</TD>
+	<TD class="detail_description">The category of the file. This is usually shown for office documents.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_PAGES@M$</TD>
+	<TD class="detail_description">The number of pages in the file. This is usually shown for office documents.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_COMMENTS@M$</TD>
+	<TD class="detail_description">Comments assigned for office documents (or similar files) or a comment 
+	in a separate <b>descript.ion</b> file. If the file has both of these comments, those are separated by '|' character. </TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_DESCRIPTION@M$</TD>
+	<TD class="detail_description">This is a property of executable files (exe, dll, ...).</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_FILEVERSION@M$</TD>
+	<TD class="detail_description">This is a property of executable files (exe, dll, ...).</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_PRODUCTNAME@M$</TD>
+	<TD class="detail_description">This is a property of executable files (exe, dll, ...).</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_PRODUCTVERSION@M$</TD>
+	<TD class="detail_description">This is a property of executable files (exe, dll, ...).</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_EXTENSION@M$</TD>
+	<TD class="detail_description">The extension of the file. For example, this column shown TXT for Readme.txt file.</TD></TR>
+<TR><TD class="detail_name">$STRMAIN_FILELISTCOLUMN_KEYWORDS@M$</TD>
+	<TD class="detail_description">Tags or keywords assigned to the file. This is usually shown for office documents.</TD></TR>
+</TD></TR>
+</TBODY>
+</TABLE>
+
+<h2><a name="sk_list"></a>$DLGSELECTDETAILS_ACTIONS@C$</h2>
+
+<p>
+You can speficy what happens when you click or double-click files
+or directories using the left, right or middle button of a mouse. 
+You can use this feature, for example, to you open the parent folder in Windows explorer when you double click "In Folder" column. 
+</p>
+
+<p>
+To specify action, choose first the column for which the action is specified in 
+<b>$DLGSELECTDETAILS_TEXT@CM$</b> list. Then choose desired mouse button from 
+<a name="sdd_when"></a><b>$DLGSELECTDETAILS_WHEN@M$</b> combo box and finally choose 
+the action from <a name="sdd_action"></a><b>$DLGSELECTDETAILS_ACTION@M$</b> combo box. 
+The actions are described <a href="actions_resultslist.htm">here</a>.
+</p>
+
+
+</div>
+

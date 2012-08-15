@@ -1,0 +1,66 @@
+TITLE=Searching data inside of files
+CONTENT=
+<H1><A NAME="issue_searchterms"></A>Searching text and other data inside of files.</H1>
+
+<p>
+You can use "File containing text:" field in Advanced tab
+to search text data inside of files. The databases does not 
+contain any information about the content of files so that 
+actual files are used in searches. 
+</p>
+<p>
+Locate32 uses only 
+a simple binary search routine so that file types are not recognized.
+However, in the case of some file formats, text is not typically 
+packed or encoded and therefore searching routine may work. 
+You may also try to search using unicode character sets (see below).
+Older MS Office file formats stores text in plain ANSI format so this 
+search feature can typically be used with them. Newer MS office files uses unicode 
+(UTF16) character set. However, text in PDF files are often encoded so this feature does 
+not work with PDF files. 
+</p>
+<p>
+The searching routine allows the following searching terms.
+
+<TABLE cols=2 width="100%">
+<TBODY>
+<TR><TD width=30%>Hello</TD><TD width=70%>search for files containing text 'Hello'</TD></TR>
+<TR><TD width=30%>str:Hello</TD><TD width=70%>same as 'Hello'</TD></TR>
+<TR><TD width=30%>str:Hello\0</TD><TD width=70%>same as 'Hello' but string is terminated with zero byte</TD></TR>
+<TR><TD width=30%>uni:Hello</TD><TD width=70%>search for unicode (UTF16) string 'Hello'</TD></TR>
+<TR><TD width=30%>wstr:Hello</TD><TD width=70%>search for unicode (UTF16) string 'Hello'</TD></TR>
+<TR><TD width=30%>utf16:Hello</TD><TD width=70%>search for unicode (UTF16) string 'Hello'</TD></TR>
+<TR><TD width=30%>utf8:Hello</TD><TD width=70%>search for unicode (UTF8) string 'Hello'</TD></TR>
+<TR><TD width=30%>utf7:Hello</TD><TD width=70%>search for unicode (UTF7) string 'Hello'</TD></TR>
+<TR><TD width=30%>hex:12AAFF</TD><TD width=70%>search for binary data '12AAFF' from files</TD></TR>
+<TR><TD width=30%>bin:12AAFF</TD><TD width=70%>same as 'hex:12AAFF'</TD></TR>
+<TR><TD width=30%>dword(16):1234ABCD</TD><TD width=70%>search for double word  (32-bit value) '1234ABCD' (base is 16)</TD></TR>
+<TR><TD width=30%>dword(10):12345678</TD><TD width=70%>search for double word '12345678' (base is 10)</TD></TR>
+<TR><TD width=30%>word(16):123E</TD><TD width=70%>search for word (16-bit value) '123E' from files</TD></TR>
+<TR><TD width=30%>byte(16):1E</TD><TD width=70%>search for byte (8-bit value) 1E from files</TD></TR>
+<TR><TD width=30%>regexp:cat|dog</TD><TD width=70%>search for 'cat' or 'dog'</TD></TR>
+</TBODY>
+</TABLE>			
+</P>
+
+<P>
+Note:<br>
+'dword:12345678' is same as 'dword(16):12345678' and 'hex:78563412'<br>
+'word:1234' is same as 'word(16):1234' and 'hex:3412'<br>
+'byte:12' is same as 'byte(16):12' and 'hex:12'<br>
+'hex:0 0 0 0 0' is same as 'hex:00000000', 'hex:00 00 00 00' and 'dword:0'<br>
+</P>
+
+<P>
+With 'str:' and 'uni:' you can use:
+<TABLE cols=2>
+<TBODY>
+<TR><TD width=10%>'\0':</TD><TD width=90%>zero byte</TD></TR>
+<TR><TD width=10%>'\n':</TD><TD width=90%>line break</TD></TR>
+<TR><TD width=10%>'\r':</TD><TD width=90%>carriage return (\r\n is default line break in Windows)</TD></TR>
+<TR><TD width=10%>'\t':</TD><TD width=90%>tabulation char</TD></TR>
+<TR><TD width=10%>'\b':</TD><TD width=90%>bell</TD></TR>
+<TR><TD width=10%>'\XX':</TD><TD width=90%>hex byte 'XX', for example \FF</TD></TR>
+</TBODY>
+</TABLE>			
+</P>

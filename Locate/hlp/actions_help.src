@@ -1,0 +1,31 @@
+TITLE=Help actions (Keyboard Shortcuts)
+CONTENT=
+<div id="actions">
+<H1><A NAME="actions_help"></A>Help actions (Keyboard Shortcuts)</H1>
+
+<P>
+The Help category contains the following actions:
+
+<div id="actions">
+
+<p><b><a name="ahlp1"></a>$STRACTION_SHOWHELP@M$</b>:
+Opens the help. </p>
+
+<p><b><a name="ahlp2"></a>$STRACTION_CLOSEHELP@M$</b>:
+Closes the help. </p>
+
+<p><b><a name="ahlp3"></a>$STRACTION_HELPTOPICS@M$</b>:
+Shows topics in the help file. </p>
+
+<p><b><a name="ahlp4"></a>$STRACTION_HELPINDEX@M$</b>:
+Shows the help index.</p>
+
+<p><b><a name="ahlp5"></a>$STRACTION_HELPTOC@M$</b>:
+Shows the table of context in the help.</p>
+
+<p><b><a name="ahlp6"></a>$STRACTION_HELPSEARCH@M$</b>:
+Search topics in the help.</p>
+
+</div></P>
+
+</div>

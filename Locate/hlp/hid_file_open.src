@@ -1,0 +1,9 @@
+TITLE=Open (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_open"></A>Open (File menu/File Context menu)</H1>
+
+<P>Use this command to execute the selected items in the result list.
+
+This command is not visible if no file is selected.</P>
+</div>

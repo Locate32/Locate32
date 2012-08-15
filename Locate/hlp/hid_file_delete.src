@@ -1,0 +1,15 @@
+TITLE=Delete (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_delete"></A>Delete (File menu/File Context menu)</H1>
+
+<P>Use this command to (physically) delete selected files.
+
+This command is not visible if no file is selected.</P>
+
+<p><b>Note:</b> databases are not updated after file operations. Thus, if
+databases are not updated before a new search is done, the deleted files 
+will appear in the result list as "Deleted / moved / offline file" (to 
+prevent this, choose "Don't show deleted/renamed/moved files" option in 
+Advanced settings). </p>
+</div>

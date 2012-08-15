@@ -1,0 +1,55 @@
+TITLE=Arrange Icons (View menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_view_arrangeicons"></A>Arrange Icons (View menu)</H1>
+
+<P>The commands in this menu can be used to arrange and sort files.</P>
+
+<P>The menu offers the following commands:
+
+<TABLE cols=2 width=900>
+<TBODY>
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_byname.htm">by Name</A></TD>
+<TD width=85%>Sort results by name.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_byfolder.htm">by Folder</A></TD>
+<TD width=85%>Sort results by folder.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_bytype.htm">by Type</A></TD>
+<TD width=85%>Sort results by file type.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_bysize.htm">by Size</A></TD>
+<TD width=85%>Sort results by file size.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_bydate.htm">by Date</A></TD>
+<TD width=85%>Sort results by date.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_byextension.htm">by Extension</A></TD>
+<TD width=85%>Sort results by file extension.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_autoarrange.htm">Auto Arrange</A></TD>
+<TD width=85%>Arranges icons automatically.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%><A HREF="hid_view_arrange_aligntogrid.htm">Align to Grid</A></TD>
+<TD width=85%>Aligns icons to grid.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</P>
+
+</div>

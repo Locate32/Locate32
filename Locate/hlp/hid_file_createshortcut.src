@@ -1,0 +1,9 @@
+TITLE=Create Shortcut (File menu/File Context menu)
+CONTENT=
+<div id="menucommands">
+<H1><A NAME="hid_file_createshortcut"></A>Create Shortcut (File menu/File Context menu)</H1>
+
+<P>Use this command to create a shortcut from the selected items to desktop.</P>
+<P>This command is not visible if no file is selected.</P>
+
+</div>
